@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="MenuColor" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:tint">?attr/colorOnSurface</item>
+    </style>
+
+</resources>

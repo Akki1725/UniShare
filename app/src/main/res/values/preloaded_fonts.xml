@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amaranth</item>
+        <item>@font/inter</item>
+        <item>@font/montserrat</item>
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_bold</item>
+        <item>@font/poppins</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_condensed_regular</item>
+        <item>@font/roboto_light</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/roboto_mono</item>
+        <item>@font/roboto_mono_bold</item>
+        <item>@font/roboto_mono_light</item>
+        <item>@font/roboto_mono_medium</item>
+    </array>
+</resources>

@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_row_devices_scanned.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\row_devices_scanned.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_send_layout_conventional.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\send_layout_conventional.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_device_container_bg.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\device_container_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_send_layout_end.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\send_layout_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_activity_voice_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\activity_voice_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_connecting.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_connecting.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_call_missed.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_call_missed.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\menu_chat_menu.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\menu\\chat_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_montserrat.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\montserrat.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_receive_layout_start.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\receive_layout_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_bluetooth_icon.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\bluetooth_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_discover.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_discover.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_mobile_button_clicked.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\mobile_button_clicked.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_amaranth.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\amaranth.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_chats.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_open_sans_semibold.ttf.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\open_sans_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_mobile_button.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\mobile_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_item_send.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\item_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_reject.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_reject.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_world_selected.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\world_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_open_sans_bold.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\open_sans_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_item_container_bg.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\item_container_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_poppins.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\poppins.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_fragment_devices.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\fragment_devices.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_mono_medium.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_mono_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_container_bg.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\container_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_receive_layout_conventional.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\receive_layout_conventional.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_devices.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_devices.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_open_sans_light.ttf.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\open_sans_light.ttf"
+    },
+    {
+        "merged": "com.michaelians.bluteeth.app-merged_res-68:/layout_item_send.xml.flat",
+        "source": "com.michaelians.bluteeth.app-main-70:/layout/item_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\baseline_more_vert_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_connected.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_connected.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_toolbar_drop_shadow.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\toolbar_drop_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_thin.ttf.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_thin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_test_image.png.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\test_image.png"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_mono_light.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_mono_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_condensed_regular.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_condensed_regular.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_call_outgoing.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_call_outgoing.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_inter.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\inter.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_medium.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\menu_top_menu.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\menu\\top_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_send_layout_middle.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\send_layout_middle.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_voice_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_voice_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_bg_rounded.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\bg_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_search_bg.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\search_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\anim_rotate_close_anim.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\anim\\rotate_close_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_speaker.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_speaker.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_back_button_mod.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\back_button_mod.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_open_sans.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\open_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_receive_layout_middle.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\receive_layout_middle.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_light.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\anim_rotate_open_anim.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\anim\\rotate_open_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_mute.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_mute.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_receive_layout_end.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\receive_layout_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_bold.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_not_connected.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_not_connected.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_video_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_video_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_scanned.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_scanned.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_dial_pad.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\dial_pad.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_item_receive.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\item_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_router_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\router_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_world_normal.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\world_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_mono.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_mono.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_attachment.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_attachment.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_fragment_scans.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\fragment_scans.xml"
+    },
+    {
+        "merged": "com.michaelians.bluteeth.app-merged_res-68:/layout_item_receive.xml.flat",
+        "source": "com.michaelians.bluteeth.app-main-70:/layout/item_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_call_incoming.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_call_incoming.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_baseline_bluetooth_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\baseline_bluetooth_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_mobile_button_selected.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\mobile_button_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_ic_phone_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\ic_phone_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\anim_from_bottom_anim.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\anim\\from_bottom_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\layout_row_devices.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\layout\\row_devices.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_send_layout_start.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\send_layout_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\anim_to_bottom_anim.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\anim\\to_bottom_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\font_roboto_mono_bold.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\font\\roboto_mono_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-merged_res-68:\\drawable_navigation_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.michaelians.bluteeth.app-main-70:\\drawable\\navigation_24.xml"
+    }
+]
