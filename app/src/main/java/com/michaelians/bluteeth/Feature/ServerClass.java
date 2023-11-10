@@ -31,6 +31,7 @@ public class ServerClass extends Thread {
     Context context;
     Handler handler;
     Function selectedFunction;
+    BluetoothAdapter bluetoothAdapter;
     private BluetoothServerSocket serverSocket;
 
     public enum Function {
@@ -38,11 +39,13 @@ public class ServerClass extends Thread {
         LISTEN_FOR_CALLS
     }
 
-    public ServerClass(Context context, Handler handler, BluetoothAdapter bluetoothAdapter) {
+    public ServerClass(Context context, Handler handler, BluetoothAdapter adapter) {
 
         this.context = context;
         this.handler = handler;
         this.selectedFunction = Function.LISTEN;
+
+        this.bluetoothAdapter = adapter;
 
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
         }

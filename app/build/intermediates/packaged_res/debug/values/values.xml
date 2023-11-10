@@ -97,7 +97,9 @@
     <color name="seed">#2a5ea7</color>
     <dimen name="item_round">20dp</dimen>
     <dimen name="item_sharp">5dp</dimen>
-    <string name="app_name">SwiftConnect</string>
+    <dimen name="msgMargin">12dp</dimen>
+    <dimen name="sMsgMargin">3dp</dimen>
+    <string name="app_name">UniShare</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
         <item name="android:actionOverflowButtonStyle">@style/MenuColor</item>

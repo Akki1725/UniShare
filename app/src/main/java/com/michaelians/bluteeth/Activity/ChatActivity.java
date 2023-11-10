@@ -25,6 +25,7 @@ import com.michaelians.bluteeth.Model.Message;
 import com.michaelians.bluteeth.R;
 import com.michaelians.bluteeth.Singleton.BluetoothSocketHolder;
 import com.michaelians.bluteeth.Singleton.ReceiverInstanceHolder;
+import com.michaelians.bluteeth.Singleton.ThisDevice;
 import com.michaelians.bluteeth.databinding.ActivityChatBinding;
 
 import java.io.ByteArrayOutputStream;
@@ -35,13 +36,12 @@ public class ChatActivity extends AppCompatActivity {
 
     ActivityChatBinding binding;
     ActivityResultLauncher<String> getContentLauncher;
-    String deviceName, blueId, senderId;
+    String deviceName, senderBlueId, clientBlueId;
     Handler handler;
     SendReceive sendReceive;
     MessagesAdapter adapter;
     ArrayList<Message> messages;
     String lastMsgId = "", nextMsgId = "";
-
     boolean isKeyboardOpen = false;
     public static final int RECEIVED_TXT = 5;
     public static final int RECEIVED_IMG = 6;
@@ -91,11 +91,11 @@ public class ChatActivity extends AppCompatActivity {
             }
         });
         deviceName = getIntent().getStringExtra("name");
-        blueId = getIntent().getStringExtra("blueId");
-        senderId = blueId;
+        clientBlueId = getIntent().getStringExtra("blueId");
+        senderBlueId = ThisDevice.getDevice().getBlueId();
         BluetoothSocket socket = BluetoothSocketHolder.getSocket();
         messages = new ArrayList<>();
-        adapter = new MessagesAdapter(this, messages, senderId);
+        adapter = new MessagesAdapter(this, messages, senderBlueId, clientBlueId);
         binding.chatView.setAdapter(adapter);
         binding.chatView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -133,8 +133,29 @@ public class ChatActivity extends AppCompatActivity {
                     int length = msg.arg1;
                     String receiverId = String.valueOf(msg.arg2);
                     String msgTemp = new String(readBuffer, 0, length);
-                    Message message = new Message(msgTemp, "null");
+                    Message message = new Message(msgTemp, receiverId);
                     messages.add(message);
+
+                    for (int i = 0; i < messages.size(); i++) {
+                        Message currentMsg = messages.get(i);
+
+                        String lastMsgId = "";
+                        String nextMsgId = "";
+
+                        if (i > 0) {
+                            Message lastMsg = messages.get(i - 1);
+                            lastMsgId = lastMsg.getSenderId();
+                        }
+
+                        if (i < messages.size() - 1) {
+                            Message nextMsg = messages.get(i + 1);
+                            nextMsgId = nextMsg.getSenderId();
+                        }
+
+                        currentMsg.setLastMsgId(lastMsgId);
+                        currentMsg.setNextMsgId(nextMsgId);
+                    }
+
                     adapter.notifyDataSetChanged();
                     scrollToBottom(false);
                     break;
@@ -142,7 +163,7 @@ public class ChatActivity extends AppCompatActivity {
             return true;
         });
 
-        sendReceive = new SendReceive(socket, handler, senderId);
+        sendReceive = new SendReceive(socket, handler, clientBlueId);
         sendReceive.setFunctionToExecute(SendReceive.Function.READ);
         sendReceive.start();
         ReceiverInstanceHolder.setInstance(sendReceive);
@@ -182,8 +203,29 @@ public class ChatActivity extends AppCompatActivity {
                 sendReceive.write(messageBytes);
             }
 
-            Message message = new Message(messageTxt, senderId);
-            messages.add(message);
+            Message msg = new Message(messageTxt, senderBlueId);
+            messages.add(msg);
+
+            for (int i = 0; i < messages.size(); i++) {
+                Message currentMsg = messages.get(i);
+
+                String lastMsgId = "";
+                String nextMsgId = "";
+
+                if (i > 0) {
+                    Message lastMsg = messages.get(i - 1);
+                    lastMsgId = lastMsg.getSenderId();
+                }
+
+                if (i < messages.size() - 1) {
+                    Message nextMsg = messages.get(i + 1);
+                    nextMsgId = nextMsg.getSenderId();
+                }
+
+                currentMsg.setLastMsgId(lastMsgId);
+                currentMsg.setNextMsgId(nextMsgId);
+            }
+
             adapter.notifyDataSetChanged();
             scrollToBottom(false);
             binding.msgBox.setText("");

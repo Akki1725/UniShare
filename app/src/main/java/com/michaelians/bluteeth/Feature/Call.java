@@ -82,7 +82,6 @@ public class Call extends Thread {
             sendReceive.setFunctionToExecute(SendReceive.Function.READ_AUDIO);
             sendReceive.start();
         }
-
     }
 
     void recordAudio() {

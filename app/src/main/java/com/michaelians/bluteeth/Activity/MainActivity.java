@@ -30,8 +30,10 @@ import androidx.fragment.app.FragmentTransaction;
 import com.michaelians.bluteeth.Feature.ServerClass;
 import com.michaelians.bluteeth.Fragment.DevicesFragment;
 import com.michaelians.bluteeth.Fragment.ScansFragment;
+import com.michaelians.bluteeth.Model.Device;
 import com.michaelians.bluteeth.R;
 import com.michaelians.bluteeth.Singleton.ServerClassHolder;
+import com.michaelians.bluteeth.Singleton.ThisDevice;
 import com.michaelians.bluteeth.databinding.ActivityMainBinding;
 
 import java.util.UUID;
@@ -55,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     public static final UUID BLUE_UUID = UUID.fromString("0a9ff177-e7fe-49d8-918a-f52016a43a08");
     private boolean clicked = false;
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint({"SetTextI18n", "HardwareIds"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -90,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
         DevicesFragment devicesFragment = new DevicesFragment();
         ScansFragment scansFragment = new ScansFragment();
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        ThisDevice.setDevice(new Device(bluetoothAdapter.getAddress()));
         bluetoothOn = bluetoothAdapter.isEnabled();
         btEnable = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
         registerReceiver(scanReceiver, scanFilter);

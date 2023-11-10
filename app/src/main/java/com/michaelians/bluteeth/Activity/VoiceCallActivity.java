@@ -1,18 +1,14 @@
 package com.michaelians.bluteeth.Activity;
 
-import android.content.Context;
-import android.media.AudioDeviceInfo;
-import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
-import com.google.android.exoplayer2.util.Util;
 import com.michaelians.bluteeth.Feature.Call;
-import com.michaelians.bluteeth.Feature.ProximitySensor;
-import com.michaelians.bluteeth.Feature.Utils;
+import com.michaelians.bluteeth.R;
 import com.michaelians.bluteeth.databinding.ActivityVoiceCallBinding;
 
 public class VoiceCallActivity extends AppCompatActivity {
@@ -32,6 +28,8 @@ public class VoiceCallActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         }
+
+        getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.md_theme_light_surface));
 
         deviceName = getIntent().getStringExtra("deviceName");
         deviceBlueId = getIntent().getStringExtra("blueId");

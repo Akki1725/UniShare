@@ -4,9 +4,9 @@ package com.michaelians.bluteeth.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -17,19 +17,20 @@ import java.lang.String;
 
 public final class FragmentDevicesBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final NestedScrollView rootView;
 
   @NonNull
   public final RecyclerView deviceList;
 
-  private FragmentDevicesBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView deviceList) {
+  private FragmentDevicesBinding(@NonNull NestedScrollView rootView,
+      @NonNull RecyclerView deviceList) {
     this.rootView = rootView;
     this.deviceList = deviceList;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -60,7 +61,7 @@ public final class FragmentDevicesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDevicesBinding((FrameLayout) rootView, deviceList);
+      return new FragmentDevicesBinding((NestedScrollView) rootView, deviceList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

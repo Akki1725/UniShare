@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.michaelians.bluteeth.app-mergeDebugResources-66:/values-as/values-as.xml",
+            "outputFile": "com.michaelians.bluteeth.app-mergeDebugResources-63:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\d50a1008623662a14e2faeeed3a3864b\\transformed\\core-1.12.0\\res\\values-as\\values-as.xml",

@@ -1,19 +1,16 @@
 package com.michaelians.bluteeth.Feature;
 
-import static com.michaelians.bluteeth.Activity.ChatActivity.RECEIVED_IMG;
 import static com.michaelians.bluteeth.Activity.ChatActivity.RECEIVED_TXT;
 import static com.michaelians.bluteeth.Feature.Call.RECEIVED_AUDIO;
 
 import android.bluetooth.BluetoothSocket;
 import android.os.Handler;
-import android.util.Log;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.nio.ByteBuffer;
 import java.util.Arrays;
+
 public class SendReceive extends Thread {
 
     String senderBlueId;
@@ -77,7 +74,7 @@ public class SendReceive extends Thread {
                 String receivedMessage = new String(buffer, 0, bytes);
                 if (receivedMessage.startsWith("TXT")) {
                     byte[] message = Arrays.copyOfRange(buffer, 3, bytes);
-                    uiHandler.obtainMessage(RECEIVED_TXT, message.length, -1, message).sendToTarget();
+                    uiHandler.obtainMessage(RECEIVED_TXT, message.length, Integer.parseInt(senderBlueId), message).sendToTarget();
                 }
 
             } catch (IOException e) {

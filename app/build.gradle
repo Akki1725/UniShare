@@ -74,7 +74,5 @@ dependencies {
     implementation 'androidx.compose.material3:material3'
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation 'com.polidea.rxandroidble3:rxandroidble:1.17.2'
-    implementation 'com.google.android.exoplayer:exoplayer:2.19.1'
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
 }

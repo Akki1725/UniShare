@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.michaelians.bluteeth.app-mergeDebugResources-66:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.michaelians.bluteeth.app-mergeDebugResources-63:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\1cde7c7ad58948e29de50df672c9cb97\\transformed\\car-ui-lib-2.0.0\\res\\values-en-rCA\\values.xml",

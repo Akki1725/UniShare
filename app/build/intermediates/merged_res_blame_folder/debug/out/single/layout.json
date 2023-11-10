@@ -1,38 +1,38 @@
 [
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/item_send.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/item_send.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/activity_main.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/activity_main.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/activity_voice_call.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/activity_voice_call.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/row_devices_scanned.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/row_devices_scanned.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/row_devices.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/row_devices.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/fragment_devices.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/fragment_devices.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/activity_chat.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/activity_chat.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/activity_chat.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/activity_chat.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/fragment_scans.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/fragment_scans.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/fragment_scans.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/fragment_scans.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/fragment_devices.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/fragment_devices.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/item_receive.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/item_receive.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/item_receive.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/item_receive.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/item_send.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/item_send.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/row_devices_scanned.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/row_devices_scanned.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/activity_voice_call.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/activity_voice_call.xml"
     },
     {
-        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-67:/layout/activity_main.xml",
-        "source": "com.michaelians.bluteeth.app-main-70:/layout/activity_main.xml"
+        "merged": "com.michaelians.bluteeth.app-mergeDebugResources-64:/layout/row_devices.xml",
+        "source": "com.michaelians.bluteeth.app-main-67:/layout/row_devices.xml"
     }
 ]

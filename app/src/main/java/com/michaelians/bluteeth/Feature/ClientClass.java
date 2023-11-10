@@ -20,8 +20,6 @@ import com.michaelians.bluteeth.Singleton.BluetoothSocketHolder;
 
 import java.io.IOException;
 
-import io.reactivex.rxjava3.internal.operators.flowable.FlowableDistinctUntilChanged;
-
 public class ClientClass extends Thread {
 
     Context context;
