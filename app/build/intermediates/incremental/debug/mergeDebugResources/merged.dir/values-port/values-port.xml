@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+    <bool name="car_ui_toolbar_tab_flexible_layout">true</bool>
+    <dimen name="car_ui_app_styled_dialog_height_max">1056dp</dimen>
+    <dimen name="car_ui_app_styled_dialog_width_max">768dp</dimen>
+</resources>
