@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Feature;
+package com.eldorado.unishare.feature;
 
 import android.Manifest;
 import android.app.Activity;
@@ -16,7 +16,7 @@ import android.util.Log;
 
 import androidx.core.app.ActivityCompat;
 
-import com.michaelians.bluteeth.Singleton.BluetoothSocketHolder;
+import com.eldorado.unishare.singleton.BluetoothSocketHolder;
 
 import java.util.ArrayList;
 import java.util.List;

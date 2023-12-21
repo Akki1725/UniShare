@@ -1,6 +1,6 @@
-package com.michaelians.bluteeth.Singleton;
+package com.eldorado.unishare.singleton;
 
-import com.michaelians.bluteeth.Feature.ClientClass;
+import com.eldorado.unishare.feature.ClientClass;
 
 public class ClientClassHolder {
     private static ClientClass clientInstance;

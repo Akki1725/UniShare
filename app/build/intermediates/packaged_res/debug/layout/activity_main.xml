@@ -1,184 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:transitionGroup="true"
     tools:ignore="HardcodedText"
-    tools:context=".Activity.MainActivity">
-
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout"
+    tools:context=".activity.MainActivity">
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/mainToolbar"
+        android:layout_height="match_parent"
+        android:background="?attr/colorSurfaceMain">
+    
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorSurfaceMain"
-            android:minHeight="?attr/actionBarSize"
-            app:menu="@menu/top_menu"
-            app:title="@string/app_name"
-            app:titleTextAppearance="@style/TitleAppearance"
-            app:titleTextColor="?attr/colorOnSurface" />
+            app:liftOnScroll="true"
+            android:elevation="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+    
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/mainToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorSurface"
+                android:minHeight="?attr/actionBarSize"
+                app:navigationIcon="@drawable/baseline_menu_24"
+                app:navigationIconTint="?attr/colorOnSurface"
+                app:menu="@menu/top_menu"
+                app:titleCentered="true"
+                app:title="@string/app_name"
+                app:titleTextAppearance="@style/TitleAppearance"
+                app:titleTextColor="?attr/colorOnSurface" />
+    
+        </com.google.android.material.appbar.AppBarLayout>
+    
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/app_bar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
 
-    </com.google.android.material.appbar.AppBarLayout>
+            <Button
+                android:id="@+id/all"
+                style="?attr/materialIconButtonFilledTonalStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All" />
 
-    <FrameLayout
-        android:id="@+id/framer"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/navBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"/>
+            <Button
+                android:id="@+id/chats"
+                style="?attr/materialIconButtonFilledTonalStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chats" />
 
-    <TextView
-        android:id="@+id/statusBar"
+            <Button
+                android:id="@+id/a_calls"
+                style="?attr/materialIconButtonFilledTonalStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voice Calls" />
+
+            <Button
+                android:id="@+id/v_calls"
+                style="?attr/materialIconButtonFilledTonalStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video Calls" />
+    
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    
+        <androidx.cardview.widget.CardView
+            android:id="@+id/framer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="15dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="?attr/colorSurface"
+            app:cardElevation="0dp"
+            app:layout_constraintHeight_default="wrap"
+            app:layout_constraintHeight_max="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/navBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toggleGroup" />
+    
+        <TextView
+            android:id="@+id/statusBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_bar" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/dialer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:contentDescription="Dialer"
+            android:focusable="true"
+            android:src="@drawable/dial_pad"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toTopOf="@+id/navBar"
+            app:layout_constraintEnd_toEndOf="parent" />
+    
+        <TextView
+            android:id="@+id/debugWindow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:ellipsize="none"
+            android:singleLine="false"
+            android:maxWidth="150dp"
+            android:layout_margin="20dp"
+            android:breakStrategy="simple"
+            android:fontFamily="@font/open_sans"
+            android:contentDescription="Debug"
+            android:text="Connected"
+            android:textStyle="bold"
+            android:elevation="6dp"
+            android:textColor="?attr/colorOnErrorContainer"
+            android:background="@drawable/device_container_bg"
+            android:backgroundTint="?attr/colorErrorContainer"
+            app:layout_constraintBottom_toTopOf="@+id/navBar"
+            app:layout_constraintStart_toStartOf="parent" />
+    
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:minHeight="70dp"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/nav_menu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:layout_gravity="start"
+        android:backgroundTint="?attr/colorSurface"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer_menu" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/listenForCallsBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="?attr/colorPrimaryContainer"
-        android:contentDescription="Turn On Bluetooth"
-        android:focusable="true"
-        android:padding="@dimen/_20sdp"
-        android:src="@drawable/ic_voice_call"
-        android:visibility="gone"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toTopOf="@+id/listenBtn"
-        app:layout_constraintEnd_toEndOf="@+id/listenBtn"
-        app:maxImageSize="30dp"
-        app:tint="?attr/colorOnPrimaryContainer" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/listenBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="?attr/colorPrimaryContainer"
-        android:contentDescription="Turn On Bluetooth"
-        android:focusable="true"
-        android:padding="@dimen/_20sdp"
-        android:src="@drawable/ic_not_connected"
-        android:visibility="gone"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toTopOf="@+id/enableDiscoveryBtn"
-        app:layout_constraintEnd_toEndOf="@+id/enableDiscoveryBtn"
-        app:maxImageSize="30dp"
-        app:tint="?attr/colorOnPrimaryContainer" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/enableDiscoveryBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="?attr/colorPrimaryContainer"
-        android:contentDescription="Turn On Bluetooth"
-        android:focusable="true"
-        android:padding="@dimen/_20sdp"
-        android:src="@drawable/ic_discover"
-        android:visibility="gone"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toTopOf="@+id/bluetoothBtn"
-        app:layout_constraintEnd_toEndOf="@+id/bluetoothBtn"
-        app:maxImageSize="30dp"
-        app:tint="?attr/colorOnPrimaryContainer" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/bluetoothBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="?attr/colorPrimaryContainer"
-        android:contentDescription="Turn On Bluetooth"
-        android:focusable="true"
-        android:padding="@dimen/_20sdp"
-        android:src="@drawable/bluetooth_icon"
-        android:visibility="gone"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toTopOf="@+id/moreBtn"
-        app:layout_constraintEnd_toEndOf="@+id/moreBtn"
-        app:maxImageSize="30dp"
-        app:tint="?attr/colorOnPrimaryContainer" />
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/moreBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:contentDescription="Turn On Bluetooth"
-        android:padding="@dimen/_20sdp"
-        android:src="@drawable/baseline_add_24"
-        android:focusable="true"
-        android:backgroundTint="?attr/colorSurfaceMain"
-        app:tint="?attr/colorOnSurface"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toTopOf="@+id/dialer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:maxImageSize="30dp" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/dialer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:contentDescription="Dialer"
-        android:padding="@dimen/_20sdp"
-        android:src="@drawable/dial_pad"
-        android:focusable="true"
-        android:backgroundTint="?attr/colorPrimary"
-        app:tint="?attr/colorOnPrimary"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toTopOf="@+id/navBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:maxImageSize="30dp" />
-
-    <TextView
-        android:id="@+id/debugWindow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textSize="16sp"
-        android:ellipsize="none"
-        android:singleLine="false"
-        android:maxWidth="150dp"
-        android:layout_margin="20dp"
-        android:breakStrategy="simple"
-        android:fontFamily="@font/open_sans"
-        android:contentDescription="Debug"
-        android:text="Connected"
-        android:textStyle="bold"
-        android:elevation="6dp"
-        android:textColor="?attr/colorOnErrorContainer"
-        android:background="@drawable/device_container_bg"
-        android:backgroundTint="?attr/colorErrorContainer"
-        app:layout_constraintBottom_toTopOf="@+id/navBar"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:minHeight="70dp"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/nav_menu" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

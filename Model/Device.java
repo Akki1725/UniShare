@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Model;
+package com.eldorado.unishare.model;
 
 public class Device {
 

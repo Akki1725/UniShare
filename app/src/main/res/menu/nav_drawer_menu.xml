@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/controlPanel"
+            android:title="Control Panel">
+
+            <menu>
+                <item
+                    android:id="@+id/bluetoothBtn"
+                    android:checked="false"
+                    android:icon="@drawable/bluetooth_24px"
+                    android:title="Bluetooth" />
+
+                <item
+                    android:id="@+id/enableDiscoveryBtn"
+                    android:checked="false"
+                    android:icon="@drawable/tethering_24"
+                    android:title="Enable Discovery" />
+
+                <item
+                    android:id="@+id/listenBtn"
+                    android:checked="false"
+                    android:icon="@drawable/storm"
+                    android:title="Listen chats" />
+
+                <item
+                    android:id="@+id/listenForCallsBtn"
+                    android:checked="false"
+                    android:icon="@drawable/phone"
+                    android:title="Listen calls" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/settings"
+        android:checked="false"
+        android:icon="@drawable/settingss"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/about"
+        android:checked="false"
+        android:icon="@drawable/info"
+        android:title="About" />
+
+    <item
+        android:id="@+id/help"
+        android:checked="false"
+        android:icon="@drawable/help"
+        android:title="Help and feedback" />
+
+</menu>

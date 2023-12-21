@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.michaelians.bluteeth"
+    package="com.eldorado.unishare"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -34,10 +34,10 @@
     </queries>
 
     <permission
-        android:name="com.michaelians.bluteeth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.eldorado.unishare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.michaelians.bluteeth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.eldorado.unishare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -53,21 +53,36 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.michaelians.bluteeth.Activity.VoiceCallActivity"
-            android:exported="false" />
+            android:name="com.eldorado.unishare.activity.AboutActivity"
+            android:exported="false"
+            android:theme="@style/AboutTheme" />
         <activity
-            android:name="com.michaelians.bluteeth.Activity.ChatActivity"
-            android:exported="false" />
+            android:name="com.eldorado.unishare.activity.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/SettingsTheme" />
         <activity
-            android:name="com.michaelians.bluteeth.Activity.MainActivity"
+            android:name="com.eldorado.unishare.activity.SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/AppTheme" >
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.eldorado.unishare.activity.VoiceCallActivity"
+            android:exported="false"
+            android:theme="@style/CallTheme" />
+        <activity
+            android:name="com.eldorado.unishare.activity.ChatActivity"
+            android:exported="false"
+            android:theme="@style/ChatTheme" />
+        <activity
+            android:name="com.eldorado.unishare.activity.MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -75,13 +90,13 @@
 
         <provider
             android:name="com.android.car.ui.core.CarUiInstaller"
-            android:authorities="com.michaelians.bluteeth.CarUiInstaller"
+            android:authorities="com.eldorado.unishare.CarUiInstaller"
             android:directBootAware="true"
             android:exported="false"
             android:process="@string/car_ui_installer_process_name" />
         <provider
             android:name="com.android.car.ui.core.SearchResultsProvider"
-            android:authorities="com.michaelians.bluteeth.SearchResultsProvider"
+            android:authorities="com.eldorado.unishare.SearchResultsProvider"
             android:exported="true"
             android:process="@string/car_ui_installer_process_name"
             android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
@@ -95,7 +110,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.michaelians.bluteeth.androidx-startup"
+            android:authorities="com.eldorado.unishare.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -107,6 +122,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

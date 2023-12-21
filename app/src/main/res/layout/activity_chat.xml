@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.ChatActivity">
+    android:id="@+id/chatLayout"
+    android:transitionGroup="true"
+    android:background="?attr/colorPrimaryContainer"
+    android:theme="@style/ChatTheme"
+    tools:context=".activity.ChatActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -24,7 +28,7 @@
             app:navigationIcon="@drawable/baseline_arrow_back_24"
             app:navigationIconTint="?attr/colorOnSurface"
             app:title="Device Name"
-            app:titleTextAppearance="@style/TitleAppearance"
+            app:titleTextAppearance="@style/ChatTitleAppearance"
             app:titleTextColor="?attr/colorOnSurface" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -33,80 +37,128 @@
         android:id="@+id/chatView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginBottom="@dimen/_3sdp"
         android:clipToPadding="false"
         android:paddingTop="@dimen/_4sdp"
         android:paddingBottom="@dimen/_4sdp"
-        app:layout_constraintBottom_toTopOf="@+id/interactionBox"
+        android:background="?attr/colorSurface"
+        app:layout_constraintBottom_toTopOf="@+id/messageBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"/>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/interactionBox"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="@dimen/_8sdp"
-        android:layout_marginBottom="20dp"
-        app:cardElevation="6dp"
-        app:cardBackgroundColor="?attr/colorSurfaceMain"
-        app:cardCornerRadius="30dp"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/messageBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingHorizontal="5dp"
+        android:background="?attr/colorSurface"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/sendBtn"
-        app:layout_constraintStart_toStartOf="parent" >
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="@dimen/_40sdp"
-            android:maxHeight="@dimen/_150sdp"
-            android:gravity="center"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <EditText
-                android:id="@+id/msgBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginEnd="10dp"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:ems="10"
-                android:fontFamily="@font/open_sans"
-                android:textStyle="bold"
-                android:hint="Type a message..."
-                android:imeOptions="actionSend"
-                android:textColor="?attr/colorOnSurface"
-                android:textColorHint="?attr/colorOnSurfaceVariant"
-                android:textSize="15sp" />
 
             <ImageView
                 android:id="@+id/attachmentBtn"
                 android:layout_width="@dimen/_32sdp"
                 android:layout_height="@dimen/_32sdp"
-                android:padding="@dimen/_8sdp"
-                android:layout_marginEnd="5dp"
-                android:contentDescription="Attach File"
-                android:soundEffectsEnabled="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
                 android:background="@drawable/back_button_mod"
                 android:clickable="true"
-                app:srcCompat="@drawable/ic_attachment" />
+                android:contentDescription="Attach File"
+                android:padding="@dimen/_7sdp"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/add_24"
+                app:tint="?attr/colorOnSurfaceVariant" />
+
+            <ImageView
+                android:id="@+id/emojiBtn"
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/back_button_mod"
+                android:clickable="true"
+                android:contentDescription="Attach File"
+                android:padding="@dimen/_7sdp"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/emoji"
+                app:tint="?attr/colorOnSurfaceVariant" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="?attr/colorSurfaceContainer"
+                app:cardCornerRadius="30dp"
+                android:layout_weight="100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:maxHeight="@dimen/_250sdp"
+                    android:minHeight="@dimen/_40sdp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/msgBox"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:fontFamily="@font/open_sans"
+                        android:hint="Message"
+                        android:imeOptions="actionSend"
+                        android:inputType="text|textMultiLine"
+                        android:textColor="?attr/colorOnSurface"
+                        android:textColorHint="?attr/colorOnSurfaceVariant"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/voiceInput"
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/back_button_mod"
+                        android:clickable="true"
+                        android:contentDescription="Attach File"
+                        android:padding="@dimen/_6sdp"
+                        android:soundEffectsEnabled="true"
+                        app:srcCompat="@drawable/baseline_keyboard_voice_24"
+                        app:tint="?attr/colorOnSurfaceVariant" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/sendBtn"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/send_button_bg"
+                android:clickable="true"
+                android:contentDescription="Send message"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/arrow_up"
+                app:tint="?attr/colorOnPrimary" />
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/sendBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="10dp"
-        android:clickable="true"
-        android:padding="@dimen/_20sdp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_send" />
+    </com.google.android.material.appbar.AppBarLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

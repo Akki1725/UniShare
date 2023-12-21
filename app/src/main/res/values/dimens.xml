@@ -4,4 +4,6 @@
     <dimen name="sMsgMargin">3dp</dimen>
     <dimen name="item_round">20dp</dimen>
     <dimen name="item_sharp">5dp</dimen>
+    <dimen name="bottom_margin">90dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

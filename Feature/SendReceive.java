@@ -1,8 +1,8 @@
-package com.michaelians.bluteeth.Feature;
+package com.eldorado.unishare.feature;
 
-import static com.michaelians.bluteeth.Activity.ChatActivity.RECEIVED_IMG;
-import static com.michaelians.bluteeth.Activity.ChatActivity.RECEIVED_TXT;
-import static com.michaelians.bluteeth.Feature.Call.RECEIVED_AUDIO;
+import static com.eldorado.unishare.activity.ChatActivity.RECEIVED_IMG;
+import static com.eldorado.unishare.activity.ChatActivity.RECEIVED_TXT;
+import static com.eldorado.unishare.feature.Call.RECEIVED_AUDIO;
 
 import android.bluetooth.BluetoothSocket;
 import android.os.Handler;

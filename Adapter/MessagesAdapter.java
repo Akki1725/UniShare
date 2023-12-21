@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Adapter;
+package com.eldorado.unishare.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,10 +10,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.michaelians.bluteeth.Model.Message;
-import com.michaelians.bluteeth.R;
-import com.michaelians.bluteeth.databinding.ItemReceiveBinding;
-import com.michaelians.bluteeth.databinding.ItemSendBinding;
+import com.eldorado.unishare.model.Message;
+import com.eldorado.unishare.R;
+import com.eldorado.unishare.databinding.ItemReceiveBinding;
+import com.eldorado.unishare.databinding.ItemSendBinding;
 
 import java.util.ArrayList;
 

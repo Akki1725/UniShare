@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Adapter;
+package com.eldorado.unishare.adapter;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -14,9 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.michaelians.bluteeth.Model.Device;
-import com.michaelians.bluteeth.R;
-import com.michaelians.bluteeth.databinding.RowDevicesScannedBinding;
+import com.eldorado.unishare.model.Device;
+import com.eldorado.unishare.R;
+import com.eldorado.unishare.databinding.RowDevicesScannedBinding;
 
 import java.util.ArrayList;
 

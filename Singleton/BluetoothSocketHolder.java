@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Singleton;
+package com.eldorado.unishare.singleton;
 
 import android.bluetooth.BluetoothSocket;
 

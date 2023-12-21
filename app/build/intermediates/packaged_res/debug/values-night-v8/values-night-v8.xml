@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="motionInterpolator">?attr/motionEasingStandardInterpolator</item>
         <item name="actionOverflowButtonStyle">@style/MenuColor</item>
+        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
+        <item name="preferenceTheme">@style/Theme.App.Preferences</item>
         <item name="android:navigationBarColor">?attr/colorSurfaceMain</item>
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
         <item name="colorPrimary">@color/md_theme_dark_primary</item>
@@ -32,7 +36,15 @@
         <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
     </style>
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
     <style name="CallTheme" parent="AppTheme">
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
+    </style>
+    <style name="ChatTheme" parent="AppTheme">
+        <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
     </style>
 </resources>

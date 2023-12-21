@@ -1,6 +1,6 @@
-package com.michaelians.bluteeth.Singleton;
+package com.eldorado.unishare.singleton;
 
-import com.michaelians.bluteeth.Feature.ServerClass;
+import com.eldorado.unishare.feature.ServerClass;
 
 public class ServerClassHolder {
     private static ServerClass serverInstance;

@@ -28,7 +28,7 @@
             android:padding="@dimen/_8sdp"
             android:singleLine="false"
             android:text="Hi! How are you?"
-            android:textColor="?attr/colorOnTertiaryContainer"
+            android:textColor="?attr/colorOnSurface"
             android:textSize="15sp"
             android:textStyle="bold" />
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:id="@+id/group_main_menu">
+
+        <item android:id="@+id/blueId"
+            android:title="12345678"
+            android:enabled="false"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/save"
+            android:title="Save contact"
+            android:icon="@drawable/check"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/copy"
+            android:title="Copy number"
+            android:icon="@drawable/copy"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/block"
+            android:title="Block"
+            android:icon="@drawable/block"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/delete"
+            android:title="Delete"
+            android:icon="@drawable/deletex"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>

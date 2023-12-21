@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Fragment;
+package com.eldorado.unishare.fragment;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -18,9 +18,9 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
-import com.michaelians.bluteeth.Adapter.ScansAdapter;
-import com.michaelians.bluteeth.Model.Device;
-import com.michaelians.bluteeth.databinding.FragmentScansBinding;
+import com.eldorado.unishare.adapter.ScansAdapter;
+import com.eldorado.unishare.model.Device;
+import com.eldorado.unishare.databinding.FragmentScansBinding;
 
 import java.util.ArrayList;
 

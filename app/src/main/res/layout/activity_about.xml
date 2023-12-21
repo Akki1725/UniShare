@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".activity.AboutActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/about_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorSurface"
+            android:minHeight="?attr/actionBarSize"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:navigationIconTint="?attr/colorOnPrimaryContainer"
+            app:title="About UniShare"
+            app:titleTextAppearance="@style/TitleAppearance"
+            app:titleTextColor="?attr/colorOnSurface" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/app_logo"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="30dp"
+                android:elevation="10dp"
+                android:src="@drawable/logo_full"
+                app:layout_constraintBottom_toTopOf="@+id/content_text"
+                app:layout_constraintEnd_toStartOf="@+id/heading_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/heading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/open_sans"
+                android:padding="20dp"
+                android:text="UniShare\nprototype v1.2"
+                android:textColor="?attr/colorOnPrimaryContainer"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/open_sans"
+                android:padding="20dp"
+                android:text="@string/app_about"
+                android:textColor="?attr/colorOnBackground"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/heading_text" />
+
+            <TextView
+                android:id="@+id/company_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/open_sans"
+                android:padding="5dp"
+                android:text="El Dorado Corporation India"
+                android:textColor="?attr/colorOnPrimaryContainer"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/content_text" />
+
+            <TextView
+                android:id="@+id/company_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/company_email"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/company_label"
+                app:layout_constraintStart_toStartOf="@+id/company_label"
+                app:layout_constraintTop_toBottomOf="@+id/company_label" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/school_logo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="30dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/school"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/heading_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/company_contact" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/isro_logo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/isro"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/school_logo"
+                app:layout_constraintTop_toBottomOf="@+id/company_contact" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sih_logo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="30dp"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/sih"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/isro_logo"
+                app:layout_constraintTop_toBottomOf="@+id/company_contact" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

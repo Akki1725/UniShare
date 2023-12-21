@@ -4,33 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/item_container_bg"
-    android:layout_marginTop="5dp"
-    android:layout_marginHorizontal="10dp"
+    android:background="@drawable/ripple"
     tools:ignore="HardcodedText"
     android:padding="20dp">
 
-    <ImageView
-        android:id="@+id/device_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/avatar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mobile_button"
-        app:tint="?attr/colorOnSurface" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/device_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:fontFamily="@font/open_sans"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxWidth="110dp"
+        android:maxLines="1"
         android:text="Device Name"
         android:textColor="?attr/colorOnSurface"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/device_icon"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView

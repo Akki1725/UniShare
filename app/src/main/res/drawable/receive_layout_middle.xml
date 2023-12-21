@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="?attr/colorTertiaryContainer"/>
+    <solid android:color="@color/receiver_box"/>
     <corners android:topLeftRadius="@dimen/item_sharp"
         android:bottomRightRadius="@dimen/item_round"
         android:bottomLeftRadius="@dimen/item_sharp"

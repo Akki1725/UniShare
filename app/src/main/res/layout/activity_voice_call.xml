@@ -7,7 +7,7 @@
     tools:ignore="HardcodedText"
     android:backgroundTint="?attr/colorSurfaceMain"
     android:theme="@style/CallTheme"
-    tools:context=".Activity.VoiceCallActivity">
+    tools:context=".activity.VoiceCallActivity">
 
     <LinearLayout
         android:id="@+id/controlBar"

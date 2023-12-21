@@ -1,6 +1,6 @@
-package com.michaelians.bluteeth.Singleton;
+package com.eldorado.unishare.singleton;
 
-import com.michaelians.bluteeth.Feature.SendReceive;
+import com.eldorado.unishare.feature.SendReceive;
 
 public class ReceiverInstanceHolder {
     private static SendReceive sendReceiveInstance;

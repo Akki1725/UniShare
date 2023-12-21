@@ -1,11 +1,11 @@
-package com.michaelians.bluteeth.Feature;
+package com.eldorado.unishare.feature;
 
-import static com.michaelians.bluteeth.Activity.MainActivity.APP_NAME;
-import static com.michaelians.bluteeth.Activity.MainActivity.BLUE_UUID;
-import static com.michaelians.bluteeth.Activity.MainActivity.CONNECTION_FAILED;
-import static com.michaelians.bluteeth.Activity.MainActivity.STATE_CONNECTED;
-import static com.michaelians.bluteeth.Activity.MainActivity.STATE_CONNECTING;
-import static com.michaelians.bluteeth.Activity.MainActivity.STATE_LISTENING;
+import static com.eldorado.unishare.activity.MainActivity.APP_NAME;
+import static com.eldorado.unishare.activity.MainActivity.BLUE_UUID;
+import static com.eldorado.unishare.activity.MainActivity.CONNECTION_FAILED;
+import static com.eldorado.unishare.activity.MainActivity.STATE_CONNECTED;
+import static com.eldorado.unishare.activity.MainActivity.STATE_CONNECTING;
+import static com.eldorado.unishare.activity.MainActivity.STATE_LISTENING;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -20,10 +20,10 @@ import android.os.Message;
 
 import androidx.core.app.ActivityCompat;
 
-import com.michaelians.bluteeth.Activity.ChatActivity;
-import com.michaelians.bluteeth.Activity.VoiceCallActivity;
-import com.michaelians.bluteeth.Model.Device;
-import com.michaelians.bluteeth.Singleton.BluetoothSocketHolder;
+import com.eldorado.unishare.activity.ChatActivity;
+import com.eldorado.unishare.activity.VoiceCallActivity;
+import com.eldorado.unishare.model.Device;
+import com.eldorado.unishare.singleton.BluetoothSocketHolder;
 
 import java.io.IOException;
 

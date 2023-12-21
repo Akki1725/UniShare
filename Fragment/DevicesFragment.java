@@ -1,4 +1,4 @@
-package com.michaelians.bluteeth.Fragment;
+package com.eldorado.unishare.fragment;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -15,12 +15,12 @@ import android.view.ViewGroup;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
-import com.michaelians.bluteeth.Activity.MainActivity;
-import com.michaelians.bluteeth.Adapter.DevicesAdapter;
-import com.michaelians.bluteeth.Feature.ServerClass;
-import com.michaelians.bluteeth.Model.Device;
-import com.michaelians.bluteeth.Singleton.ServerClassHolder;
-import com.michaelians.bluteeth.databinding.FragmentDevicesBinding;
+import com.eldorado.unishare.activity.MainActivity;
+import com.eldorado.unishare.adapter.DevicesAdapter;
+import com.eldorado.unishare.feature.ServerClass;
+import com.eldorado.unishare.model.Device;
+import com.eldorado.unishare.singleton.ServerClassHolder;
+import com.eldorado.unishare.databinding.FragmentDevicesBinding;
 
 import java.util.ArrayList;
 import java.util.Set;
