@@ -33,8 +33,12 @@ public class VoiceCallActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setSpeakerphoneOn(false);
-        onSpeaker = audioManager.isSpeakerphoneOn();
+        int result = audioManager.requestAudioFocus(null, AudioManager.STREAM_VOICE_CALL, AudioManager.AUDIOFOCUS_GAIN);
+
+        if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+            audioManager.setSpeakerphoneOn(false);
+            onSpeaker = audioManager.isSpeakerphoneOn();
+        }
 
         getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.md_theme_light_surface));
 

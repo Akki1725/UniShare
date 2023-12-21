@@ -1,6 +1,7 @@
 package com.eldorado.unishare.feature;
 
 import static com.eldorado.unishare.activity.ChatActivity.RECEIVED_TXT;
+import static com.eldorado.unishare.activity.ChatActivity.UPDATE_LATENCY;
 import static com.eldorado.unishare.feature.Call.RECEIVED_AUDIO;
 
 import android.bluetooth.BluetoothSocket;
@@ -63,9 +64,12 @@ public class SendReceive extends Thread {
     void read() {
         byte[] buffer = new byte[1024];
         int bytes;
+        long receiveTimestamp;
 
         while (true) {
             try {
+                receiveTimestamp = System.currentTimeMillis();
+
                 bytes = inputStream.read(buffer);
                 if (bytes == -1) {
                     break;
@@ -75,6 +79,11 @@ public class SendReceive extends Thread {
                 if (receivedMessage.startsWith("TXT")) {
                     byte[] message = Arrays.copyOfRange(buffer, 3, bytes);
                     uiHandler.obtainMessage(RECEIVED_TXT, message.length, Integer.parseInt(senderBlueId), message).sendToTarget();
+                } else if (receivedMessage.startsWith("PONG")) {
+                    long sendTimestamp = Long.parseLong(receivedMessage.substring(4));
+                    long latency = receiveTimestamp - sendTimestamp;
+
+                    uiHandler.obtainMessage(UPDATE_LATENCY, latency).sendToTarget();
                 }
 
             } catch (IOException e) {

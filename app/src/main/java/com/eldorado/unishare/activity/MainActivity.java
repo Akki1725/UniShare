@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         setSupportActionBar(binding.mainToolbar);
 
-        getWindow().setEnterTransition(new MaterialSharedAxis(MaterialSharedAxis.Z, false));
+        getWindow().setEnterTransition(new MaterialSharedAxis(MaterialSharedAxis.Z, true));
 
         View view = getWindow().getDecorView().findViewById(R.id.mainToolbar);
 

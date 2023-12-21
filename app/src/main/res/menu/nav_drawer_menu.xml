@@ -38,6 +38,12 @@
                     android:checked="false"
                     android:icon="@drawable/phone"
                     android:title="Listen calls" />
+
+                <item
+                    android:id="@+id/bluetooth_tethering"
+                    android:checked="false"
+                    android:icon="@drawable/tethering"
+                    android:title="Bluetooth Tethering" />
             </menu>
         </item>
     </group>

@@ -2418,6 +2418,7 @@ color switch_thumb_normal_material_light
 color test
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color vector_tint_color
 color vector_tint_theme_color
 dimen _100sdp
@@ -4131,6 +4132,7 @@ drawable baseline_more_vert_24
 drawable baseline_search_24
 drawable bg_rounded
 drawable block
+drawable blue_bg
 drawable bluetooth
 drawable bluetooth_24px
 drawable bluetooth_icon
@@ -4192,6 +4194,8 @@ drawable car_ui_toolbar_menu_item_icon_background
 drawable car_ui_toolbar_menu_item_icon_ripple
 drawable car_ui_toolbar_search_close_icon
 drawable car_ui_toolbar_search_search_icon
+drawable chat_background
+drawable chat_bg
 drawable check
 drawable contactless
 drawable container_bg
@@ -4204,6 +4208,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable device_container_bg
 drawable dial_pad
+drawable eldorado
 drawable emoji
 drawable help
 drawable home
@@ -4336,7 +4341,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable paisa
 drawable phone
+drawable popup_menu_bg
 drawable preference_list_divider_material
 drawable profile
 drawable receive_layout_conventional
@@ -4360,8 +4367,9 @@ drawable storm
 drawable sync
 drawable test_image
 drawable test_level_drawable
+drawable tethering
 drawable tethering_24
-drawable text_cursor
+drawable text_container_drawable
 drawable toolbar_drop_shadow
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -4509,10 +4517,10 @@ id bestChoice
 id block
 id blocking
 id blueIcon
-id blueId
 id blue_id
 id blue_id_container
 id bluetoothBtn
+id bluetooth_tethering
 id bordered
 id borderless
 id bottom
@@ -4822,8 +4830,8 @@ id listMode
 id list_item
 id listenBtn
 id listenForCallsBtn
+id loading_animation
 id locale
-id lottieAnimationView
 id lottie_layer_name
 id ltr
 id m3_side_sheet
@@ -4860,6 +4868,7 @@ id message
 id messageBar
 id middle
 id mini
+id moneyBtn
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -5553,6 +5562,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string in_progress
 string indeterminate
+string init_text
 string item_view_role_description
 string lorem_ipsum
 string m3_exceed_max_badge_text_suffix
@@ -6932,6 +6942,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style popupMenuStyle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

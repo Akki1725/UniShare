@@ -50,6 +50,7 @@ public class ChatActivity extends AppCompatActivity {
 
     public static final int RECEIVED_TXT = 5;
     public static final int RECEIVED_IMG = 6;
+    public static final int UPDATE_LATENCY = 7;
 
     ActivityChatBinding binding;
     ActivityResultLauncher<String> getContentLauncher;
@@ -140,38 +141,40 @@ public class ChatActivity extends AppCompatActivity {
         });
 
         handler = new Handler(msg -> {
-            switch (msg.what) {
-                case RECEIVED_TXT:
-                    byte[] readBuffer = (byte[]) msg.obj;
-                    int length = msg.arg1;
-                    String receiverId = String.valueOf(msg.arg2);
-                    String msgTemp = new String(readBuffer, 0, length);
-                    Message message = new Message(msgTemp, receiverId);
-                    messages.add(message);
+            if (msg.what == RECEIVED_TXT) {
+                byte[] readBuffer = (byte[]) msg.obj;
+                int length = msg.arg1;
+                String receiverId = String.valueOf(msg.arg2);
+                String msgTemp = new String(readBuffer, 0, length);
+                Message message = new Message(msgTemp, receiverId);
+                messages.add(message);
 
-                    for (int i = 0; i < messages.size(); i++) {
-                        Message currentMsg = messages.get(i);
+                for (int i = 0; i < messages.size(); i++) {
+                    Message currentMsg = messages.get(i);
 
-                        String lastMsgId = "";
-                        String nextMsgId = "";
+                    String lastMsgId = "";
+                    String nextMsgId = "";
 
-                        if (i > 0) {
-                            Message lastMsg = messages.get(i - 1);
-                            lastMsgId = lastMsg.getSenderId();
-                        }
-
-                        if (i < messages.size() - 1) {
-                            Message nextMsg = messages.get(i + 1);
-                            nextMsgId = nextMsg.getSenderId();
-                        }
-
-                        currentMsg.setLastMsgId(lastMsgId);
-                        currentMsg.setNextMsgId(nextMsgId);
+                    if (i > 0) {
+                        Message lastMsg = messages.get(i - 1);
+                        lastMsgId = lastMsg.getSenderId();
                     }
 
-                    adapter.notifyDataSetChanged();
-                    scrollToBottom(false);
-                    break;
+                    if (i < messages.size() - 1) {
+                        Message nextMsg = messages.get(i + 1);
+                        nextMsgId = nextMsg.getSenderId();
+                    }
+
+                    currentMsg.setLastMsgId(lastMsgId);
+                    currentMsg.setNextMsgId(nextMsgId);
+                }
+
+                adapter.notifyDataSetChanged();
+                scrollToBottom(false);
+            } else if (msg.what == UPDATE_LATENCY) {
+                long latency = (long) msg.obj;
+                String latencyText = "Latency: " + latency + "ms";
+                binding.debugWindow.setText(latencyText);
             }
 
             return true;
@@ -180,7 +183,7 @@ public class ChatActivity extends AppCompatActivity {
         sendReceive = new SendReceive(socket, handler, clientBlueId);
         sendReceive.setFunctionToExecute(SendReceive.Function.READ);
         ReceiverInstanceHolder.setInstance(sendReceive);
-        ReceiverInstanceHolder.getInstance().start(); /**/
+        ReceiverInstanceHolder.getInstance().start();
 
         binding.userToolbar.setTitle(deviceName);
         binding.userToolbar.setNavigationOnClickListener(v -> {
@@ -263,6 +266,7 @@ public class ChatActivity extends AppCompatActivity {
 
             binding.sendBtn.setVisibility(hasFocus ? View.VISIBLE : View.GONE);
             binding.attachmentBtn.setVisibility(hasFocus ? View.GONE : View.VISIBLE);
+            binding.moneyBtn.setVisibility(hasFocus ? View.GONE : View.VISIBLE);
             binding.emojiBtn.setVisibility(hasFocus ? View.GONE : View.VISIBLE);
         });
 

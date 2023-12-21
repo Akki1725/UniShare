@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-az/values-az.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-az/values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-az\\values-az.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,162",
-                        "endColumns": "106,118",
-                        "endOffsets": "157,276"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,179,263,342,474,643,727",
+                        "endColumns": "73,83,78,131,168,83,78",
+                        "endOffsets": "174,258,337,469,638,722,801"
                     },
                     "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "11429,11536",
-                        "endColumns": "106,118",
-                        "endOffsets": "11531,11650"
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "6043,6542,11829,12124,12683,13035,13119",
+                        "endColumns": "73,83,78,131,168,83,78",
+                        "endOffsets": "6112,6621,11903,12251,12847,13114,13193"
                     }
                 },
                 {
@@ -91,23 +91,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-az\\values-az.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,179,263,342,474,643,727",
-                        "endColumns": "73,83,78,131,168,83,78",
-                        "endOffsets": "174,258,337,469,638,722,801"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "6043,6542,11829,12124,12683,13035,13119",
-                        "endColumns": "73,83,78,131,168,83,78",
-                        "endOffsets": "6112,6621,11903,12251,12847,13114,13193"
-                    }
-                },
-                {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\d3e32e1bb9ddfdea873fc2458b4867ad\\transformed\\appcompat-1.6.1\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -122,6 +105,23 @@
                         "startOffsets": "315,425,526,636,724,831,945,1027,1105,1196,1289,1383,1482,1582,1675,1770,1864,1955,2047,2132,2237,2343,2443,2552,2657,2759,2917,12426",
                         "endColumns": "109,100,109,87,106,113,81,77,90,92,93,98,99,92,94,93,90,91,84,104,105,99,108,104,101,157,105,83",
                         "endOffsets": "420,521,631,719,826,940,1022,1100,1191,1284,1378,1477,1577,1670,1765,1859,1950,2042,2127,2232,2338,2438,2547,2652,2754,2912,3018,12505"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,162",
+                        "endColumns": "106,118",
+                        "endOffsets": "157,276"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "11429,11536",
+                        "endColumns": "106,118",
+                        "endOffsets": "11531,11650"
                     }
                 },
                 {

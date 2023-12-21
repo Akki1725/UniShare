@@ -73,6 +73,7 @@ tools:context=".activity.AboutActivity">
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/open_sans"
                 android:padding="20dp"
+                android:background="@drawable/text_container_drawable"
                 android:text="@string/app_about"
                 android:textColor="?attr/colorOnBackground"
                 app:layout_constraintEnd_toEndOf="parent"

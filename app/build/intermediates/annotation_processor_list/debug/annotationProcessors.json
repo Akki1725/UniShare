@@ -1,1 +1,1 @@
-{"compiler-4.15.1.jar (com.github.bumptech.glide:compiler:4.15.1)":"INCREMENTAL_AP","databinding-compiler-8.0.2.jar (androidx.databinding:databinding-compiler:8.0.2)":"INCREMENTAL_AP"}
+{"compiler-4.15.1.jar (com.github.bumptech.glide:compiler:4.15.1)":"INCREMENTAL_AP","room-compiler-2.6.1.jar (androidx.room:room-compiler:2.6.1)":"KSP_PROCESSOR","databinding-compiler-8.0.2.jar (androidx.databinding:databinding-compiler:8.0.2)":"INCREMENTAL_AP"}

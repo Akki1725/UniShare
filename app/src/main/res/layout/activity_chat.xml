@@ -33,6 +33,28 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <TextView
+        android:id="@+id/debugWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/device_container_bg"
+        android:backgroundTint="?attr/colorErrorContainer"
+        android:breakStrategy="simple"
+        android:contentDescription="Latency"
+        android:elevation="6dp"
+        android:ellipsize="none"
+        android:fontFamily="@font/open_sans"
+        android:maxWidth="150dp"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:text="Latency: 200ms"
+        android:textColor="?attr/colorOnErrorContainer"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/chatView"
         android:layout_width="match_parent"
@@ -77,13 +99,26 @@
                 app:tint="?attr/colorOnSurfaceVariant" />
 
             <ImageView
+                android:id="@+id/moneyBtn"
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/back_button_mod"
+                android:clickable="true"
+                android:contentDescription="Send Money"
+                android:padding="@dimen/_7sdp"
+                android:soundEffectsEnabled="true"
+                app:srcCompat="@drawable/paisa"
+                app:tint="?attr/colorOnSurfaceVariant" />
+
+            <ImageView
                 android:id="@+id/emojiBtn"
                 android:layout_width="@dimen/_32sdp"
                 android:layout_height="@dimen/_32sdp"
                 android:layout_gravity="center"
                 android:background="@drawable/back_button_mod"
                 android:clickable="true"
-                android:contentDescription="Attach File"
+                android:contentDescription="Emojis"
                 android:padding="@dimen/_7sdp"
                 android:soundEffectsEnabled="true"
                 app:srcCompat="@drawable/emoji"

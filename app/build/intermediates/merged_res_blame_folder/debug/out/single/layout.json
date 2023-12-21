@@ -1,66 +1,70 @@
 [
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\item_receive.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\item_receive.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\row_devices.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\row_devices.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\fragment_devices.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\fragment_devices.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\row_devices_scanned.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\row_devices_scanned.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\nav_header.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\nav_header.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\activity_about.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\dialer_layout.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\dialer_layout.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\row_devices_scanned.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\row_devices_scanned.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\activity_chat.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\activity_chat.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\fragment_scans.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\fragment_scans.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\activity_about.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\activity_about.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\settings_activity.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\settings_activity.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\row_devices.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\row_devices.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\item_send.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\item_send.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\item_receive.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\item_receive.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\dialog_save_contact.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\dialog_save_contact.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\activity_voice_call.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_voice_call.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\activity_voice_call.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\activity_voice_call.xml"
+        "merged": "com.eldorado.unishare.app-mergeDebugResources-77:/layout/activity_splash_screen.xml",
+        "source": "com.eldorado.unishare.app-main-80:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\settings_activity.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\settings_activity.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\dialog_save_contact.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\dialog_save_contact.xml"
     },
     {
-        "merged": "com.eldorado.unishare.app-mergeDebugResources-74:/layout/activity_about.xml",
-        "source": "com.eldorado.unishare.app-main-77:/layout/activity_about.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\item_send.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\item_send.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\fragment_devices.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\fragment_devices.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_chat.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-74:\\layout\\fragment_scans.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-77:\\layout\\fragment_scans.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\dialer_layout.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\dialer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\custom_action.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\custom_action.xml"
     }
 ]

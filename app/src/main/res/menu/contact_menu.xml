@@ -6,11 +6,6 @@
 
     <group android:id="@+id/group_main_menu">
 
-        <item android:id="@+id/blueId"
-            android:title="12345678"
-            android:enabled="false"
-            app:showAsAction="never"/>
-
         <item android:id="@+id/save"
             android:title="Save contact"
             android:icon="@drawable/check"

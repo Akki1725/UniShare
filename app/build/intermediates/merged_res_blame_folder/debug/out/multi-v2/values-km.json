@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-km/values-km.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\e2424a26d41fdb0c867ea0b5cb67a7e3\\transformed\\material-1.10.0\\res\\values-km\\values-km.xml",
@@ -20,6 +20,23 @@
                         "endLines": "5,33,34,35,36,37,57,58,59,68,71,72,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,138",
                         "endColumns": "12,77,75,79,78,78,99,111,79,64,93,69,61,86,62,64,58,64,60,56,118,57,60,56,70,129,85,77,137,74,70,149,96,77,54,55,65,79,89,85,84,78,76,69,74,111,87,72,99,98,73,75,106,53,89,72,90,95,61,63,62,70,98,97,91,95,57,59,82",
                         "endOffsets": "314,3080,3156,3236,3315,3394,5495,5607,5687,6427,6689,6759,6988,7075,7138,7203,7262,7327,7388,7445,7564,7622,7683,7740,7811,7941,8027,8105,8243,8318,8389,8539,8636,8714,8769,8825,8891,8971,9061,9147,9232,9311,9388,9458,9533,9645,9733,9806,9906,10005,10079,10155,10262,10316,10406,10479,10570,10666,10728,10792,10855,10926,11025,11123,11215,11311,11369,11429,12102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,160",
+                        "endColumns": "104,104",
+                        "endOffsets": "155,260"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "11434,11539",
+                        "endColumns": "104,104",
+                        "endOffsets": "11534,11639"
                     }
                 },
                 {
@@ -74,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -88,23 +105,6 @@
                         "startOffsets": "5936,6432,11816,12107,12666,13019,13099",
                         "endColumns": "68,89,77,132,168,79,76",
                         "endOffsets": "6000,6517,11889,12235,12830,13094,13171"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,160",
-                        "endColumns": "104,104",
-                        "endOffsets": "155,260"
-                    },
-                    "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "11434,11539",
-                        "endColumns": "104,104",
-                        "endOffsets": "11534,11639"
                     }
                 },
                 {

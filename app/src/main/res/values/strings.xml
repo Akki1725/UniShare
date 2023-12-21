@@ -60,5 +60,6 @@
         This is a proposal prototype of our solution to the problem statement given by <b>ISRO</b>.</string>
 
     <string name="company_email">eldoradocorporationindia@gmail.com</string>
+    <string name="init_text">Initializing...</string>
 
 </resources>

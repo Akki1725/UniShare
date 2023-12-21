@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-v23/values-v23.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\eccc281657c4b8e0562e15f3dae03225\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

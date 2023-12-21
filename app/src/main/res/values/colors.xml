@@ -4,6 +4,7 @@
 
 <!--    Seed 0-->
     <color name="seed">#00829c</color>
+    <color name="transparent">#00FFFFFF</color>
     <color name="md_theme_light_primary">#00677D</color>
     <color name="md_theme_light_surface_main">#E6EFF3</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>

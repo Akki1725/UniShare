@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-en-rAU/values-en-rAU.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,116",
-                        "endOffsets": "156,273"
-                    },
-                    "to": {
-                        "startLines": "60,61",
-                        "startColumns": "4,4",
-                        "startOffsets": "5742,5848",
-                        "endColumns": "105,116",
-                        "endOffsets": "5843,5960"
-                    }
-                },
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\213950dc821e776a8249de9139e8bd41\\transformed\\material3-1.0.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
@@ -35,6 +18,23 @@
                         "startOffsets": "4908,5247,5495",
                         "endColumns": "77,73,75",
                         "endOffsets": "4981,5316,5566"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,116",
+                        "endOffsets": "156,273"
+                    },
+                    "to": {
+                        "startLines": "60,61",
+                        "startColumns": "4,4",
+                        "startOffsets": "5742,5848",
+                        "endColumns": "105,116",
+                        "endOffsets": "5843,5960"
                     }
                 },
                 {
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

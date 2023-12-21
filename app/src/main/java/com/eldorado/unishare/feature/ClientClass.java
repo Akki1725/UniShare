@@ -61,6 +61,7 @@ public class ClientClass extends Thread {
         switch (function) {
             case CONNECT:
                 connect();
+                startPingPong();
                 break;
             case CALL:
                 call();
@@ -89,6 +90,23 @@ public class ClientClass extends Thread {
             handler.sendMessage(message);
             e.printStackTrace();
         }
+    }
+
+    void startPingPong() {
+        new Thread(() -> {
+            try {
+                while (true) {
+                    String timestamp = String.valueOf(System.currentTimeMillis());
+                    String pingMessage = "PING" + timestamp;
+                    byte[] pingBytes = pingMessage.getBytes();
+                    socket.getOutputStream().write(pingBytes);
+
+                    Thread.sleep(500);
+                }
+            } catch (IOException | InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
     }
 
     void call() {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-as/values-as.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\d50a1008623662a14e2faeeed3a3864b\\transformed\\core-1.12.0\\res\\values-as\\values-as.xml",
@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-as\\values-as.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,182,266,349,492,661,752",
-                        "endColumns": "76,83,82,142,168,90,79",
-                        "endOffsets": "177,261,344,487,656,747,827"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "6106,6599,11827,12131,12705,13058,13149",
-                        "endColumns": "76,83,82,142,168,90,79",
-                        "endOffsets": "6178,6678,11905,12269,12869,13144,13224"
-                    }
-                },
-                {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\0b1236ad4808bb0da3ecf66abe67c5e1\\transformed\\ui-1.3.0\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
@@ -72,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-as\\values-as.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,182,266,349,492,661,752",
+                        "endColumns": "76,83,82,142,168,90,79",
+                        "endOffsets": "177,261,344,487,656,747,827"
+                    },
+                    "to": {
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "6106,6599,11827,12131,12705,13058,13149",
+                        "endColumns": "76,83,82,142,168,90,79",
+                        "endOffsets": "6178,6678,11905,12269,12869,13144,13224"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

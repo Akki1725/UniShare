@@ -83,10 +83,10 @@ public class Call extends Thread {
             }
         } else if (INSTANCE_NO == 1) {
             if (BluetoothSocketHolder.isClient()) {
-                recordAudio();
-            } else {
                 sendReceive.setFunctionToExecute(SendReceive.Function.READ_AUDIO);
                 sendReceive.start();
+            } else {
+                recordAudio();
             }
         }
     }

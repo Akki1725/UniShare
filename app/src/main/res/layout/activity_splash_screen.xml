@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/initialize_logo" />
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView"
+        android:id="@+id/loading_animation"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="30dp"
@@ -40,6 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:lottie_autoPlay="true"
+        app:lottie_asyncUpdates="enabled"
         app:lottie_loop="true"
         app:lottie_speed="1"
         app:lottie_rawRes="@raw/loading_anim" />
@@ -49,13 +50,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans"
-        android:text="Initializing..."
+        android:text="@string/init_text"
         android:textColor="?attr/colorPrimary"
         android:layout_marginBottom="30dp"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
-        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView" />
+        app:layout_constraintEnd_toEndOf="@+id/loading_animation"
+        app:layout_constraintStart_toStartOf="@+id/loading_animation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

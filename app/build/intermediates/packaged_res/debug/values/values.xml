@@ -208,6 +208,7 @@
     <color name="receiver_box">?attr/colorSurfaceMain</color>
     <color name="seed">#00829c</color>
     <color name="sender_box">?attr/colorPrimary</color>
+    <color name="transparent">#00FFFFFF</color>
     <dimen name="bottom_margin">90dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="item_round">20dp</dimen>
@@ -230,6 +231,7 @@
     <string name="company_email">eldoradocorporationindia@gmail.com</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="init_text">Initializing...</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -275,11 +277,13 @@
         <item name="android:navigationBarColor">?attr/colorSurfaceMain</item>
     </style>
     <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
-        <item name="android:windowActivityTransitions">true</item>
-        <item name="motionInterpolator">?attr/motionEasingStandardInterpolator</item>
-        <item name="android:actionOverflowButtonStyle">@style/MenuColor</item>
-        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
         <item name="preferenceTheme">@style/Theme.App.Preferences</item>
+        <item name="popupMenuBackground">@drawable/popup_menu_bg</item>
+        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
+        <item name="motionInterpolator">?attr/motionEasingStandardInterpolator</item>
+        <item name="android:popupMenuStyle">@style/popupMenuStyle</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MenuColor</item>
         <item name="android:navigationBarColor">?attr/colorSurfaceMain</item>
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
         <item name="colorPrimary">@color/md_theme_light_primary</item>
@@ -362,5 +366,10 @@
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.NavigationView</item>
         <item name="itemIconTint">@color/navigation_item_color</item>
         <item name="itemTextColor">@color/navigation_item_color</item>
+    </style>
+    <style name="popupMenuStyle" parent="Widget.Material3.PopupMenu">
+        <item name="popupMenuBackground">@drawable/popup_menu_bg</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="fontFamily">@font/open_sans</item>
     </style>
 </resources>

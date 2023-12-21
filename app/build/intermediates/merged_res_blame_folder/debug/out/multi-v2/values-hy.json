@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-hy/values-hy.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-hy/values-hy.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,116",
+                        "endOffsets": "156,273"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "11525,11631",
+                        "endColumns": "105,116",
+                        "endOffsets": "11626,11743"
+                    }
+                },
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\e2424a26d41fdb0c867ea0b5cb67a7e3\\transformed\\material-1.10.0\\res\\values-hy\\values-hy.xml",
                     "from": {
@@ -57,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-hy\\values-hy.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,116",
-                        "endOffsets": "156,273"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,177,265,346,483,652,736",
+                        "endColumns": "71,87,80,136,168,83,80",
+                        "endOffsets": "172,260,341,478,647,731,812"
                     },
                     "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "11525,11631",
-                        "endColumns": "105,116",
-                        "endOffsets": "11626,11743"
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "6021,6521,11925,12234,12802,13158,13242",
+                        "endColumns": "71,87,80,136,168,83,80",
+                        "endOffsets": "6088,6604,12001,12366,12966,13237,13318"
                     }
                 },
                 {
@@ -88,23 +105,6 @@
                         "startOffsets": "5763,5862,6093,6187,6374,6869,6951,11748,11843,12006,12078,12371,12456,12627,12971,13040",
                         "endColumns": "98,81,93,99,82,81,85,94,81,71,70,84,87,73,68,117",
                         "endOffsets": "5857,5939,6182,6282,6452,6946,7032,11838,11920,12073,12144,12451,12539,12696,13035,13153"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-hy\\values-hy.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,177,265,346,483,652,736",
-                        "endColumns": "71,87,80,136,168,83,80",
-                        "endOffsets": "172,260,341,478,647,731,812"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "6021,6521,11925,12234,12802,13158,13242",
-                        "endColumns": "71,87,80,136,168,83,80",
-                        "endOffsets": "6088,6604,12001,12366,12966,13237,13318"
                     }
                 },
                 {

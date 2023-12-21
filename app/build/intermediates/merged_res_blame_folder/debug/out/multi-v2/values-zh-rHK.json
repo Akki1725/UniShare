@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,171,252,322,441,609,688",
-                        "endColumns": "65,80,69,118,167,78,75",
-                        "endOffsets": "166,247,317,436,604,683,759"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "5524,5978,10650,10915,11429,11778,11857",
-                        "endColumns": "65,80,69,118,167,78,75",
-                        "endOffsets": "5585,6054,10715,11029,11592,11852,11928"
-                    }
-                },
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\e2424a26d41fdb0c867ea0b5cb67a7e3\\transformed\\material-1.10.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
@@ -74,20 +57,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,154",
-                        "endColumns": "98,99",
-                        "endOffsets": "149,249"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,171,252,322,441,609,688",
+                        "endColumns": "65,80,69,118,167,78,75",
+                        "endOffsets": "166,247,317,436,604,683,759"
                     },
                     "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "10299,10398",
-                        "endColumns": "98,99",
-                        "endOffsets": "10393,10493"
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5524,5978,10650,10915,11429,11778,11857",
+                        "endColumns": "65,80,69,118,167,78,75",
+                        "endOffsets": "5585,6054,10715,11029,11592,11852,11928"
                     }
                 },
                 {
@@ -139,6 +122,23 @@
                         "startOffsets": "5452,5769,6059",
                         "endColumns": "71,68,70",
                         "endOffsets": "5519,5833,6125"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,154",
+                        "endColumns": "98,99",
+                        "endOffsets": "149,249"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "10299,10398",
+                        "endColumns": "98,99",
+                        "endOffsets": "10393,10493"
                     }
                 }
             ]

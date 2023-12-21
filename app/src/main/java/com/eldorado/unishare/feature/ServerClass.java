@@ -26,6 +26,8 @@ import com.eldorado.unishare.model.Device;
 import com.eldorado.unishare.singleton.BluetoothSocketHolder;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 public class ServerClass extends Thread {
     Context context;
@@ -67,6 +69,7 @@ public class ServerClass extends Thread {
                 break;
             case LISTEN_FOR_CALLS:
                 listenForCalls();
+                startPingPong();
                 break;
             default:
                 break;
@@ -111,6 +114,45 @@ public class ServerClass extends Thread {
             }
     }
 
+    void startPingPong() {
+        new Thread(() -> {
+            try {
+                while (true) {
+                    BluetoothSocket clientSocket = serverSocket.accept();
+                    respondToPing(clientSocket);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
+    }
+
+    void respondToPing(BluetoothSocket clientSocket) {
+        new Thread(() -> {
+            try {
+                InputStream inputStream = clientSocket.getInputStream();
+                OutputStream outputStream = clientSocket.getOutputStream();
+
+                while (true) {
+                    byte[] buffer = new byte[1024];
+                    int bytes = inputStream.read(buffer);
+
+                    if (bytes != -1) {
+                        String receivedMessage = new String(buffer, 0, bytes);
+                        if (receivedMessage.startsWith("PING")) {
+                            String timestamp = receivedMessage.substring(4);
+                            String pongMessage = "PONG" + timestamp;
+                            byte[] pongBytes = pongMessage.getBytes();
+                            outputStream.write(pongBytes);
+                        }
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
+    }
+
     void listenForCalls() {
         BluetoothSocket socket;
         while (true)
@@ -125,6 +167,7 @@ public class ServerClass extends Thread {
                 Device connectedDevice = new Device(remoteDevice.getAddress());
                 connectedDevice.setDeviceName(remoteDevice.getName());
                 connectedDevice.setStatus("Connected!");
+                connectedDevice.updateName();
 
                 if (socket != null) {
                     Message connectedMessage = Message.obtain();

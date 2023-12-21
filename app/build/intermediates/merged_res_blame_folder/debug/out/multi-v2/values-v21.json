@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-v21/values-v21.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,6",
                         "startColumns": "4,4,4",

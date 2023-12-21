@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-af/values-af.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\213950dc821e776a8249de9139e8bd41\\transformed\\material3-1.0.0\\res\\values-af\\values-af.xml",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-af\\values-af.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,157",
-                        "endColumns": "101,116",
-                        "endOffsets": "152,269"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,176,264,345,484,653,732",
+                        "endColumns": "70,87,80,138,168,78,76",
+                        "endOffsets": "171,259,340,479,648,727,804"
                     },
                     "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "11309,11411",
-                        "endColumns": "101,116",
-                        "endOffsets": "11406,11523"
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5978,6470,11704,11991,12542,12901,12980",
+                        "endColumns": "70,87,80,138,168,78,76",
+                        "endOffsets": "6044,6553,11780,12125,12706,12975,13052"
                     }
                 },
                 {
@@ -89,23 +89,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-af\\values-af.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,176,264,345,484,653,732",
-                        "endColumns": "70,87,80,138,168,78,76",
-                        "endOffsets": "171,259,340,479,648,727,804"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "5978,6470,11704,11991,12542,12901,12980",
-                        "endColumns": "70,87,80,138,168,78,76",
-                        "endOffsets": "6044,6553,11780,12125,12706,12975,13052"
-                    }
-                },
-                {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\1cde7c7ad58948e29de50df672c9cb97\\transformed\\car-ui-lib-2.0.0\\res\\values-af\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
@@ -120,6 +103,23 @@
                         "startOffsets": "4150,4251,4340,4430,4568,4670,4770,4899,4999,5105,5206,5316",
                         "endColumns": "100,88,89,137,101,99,128,99,105,100,109,107",
                         "endOffsets": "4246,4335,4425,4563,4665,4765,4894,4994,5100,5201,5311,5419"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,157",
+                        "endColumns": "101,116",
+                        "endOffsets": "152,269"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "11309,11411",
+                        "endColumns": "101,116",
+                        "endOffsets": "11406,11523"
                     }
                 },
                 {

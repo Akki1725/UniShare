@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-ta/values-ta.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\d50a1008623662a14e2faeeed3a3864b\\transformed\\core-1.12.0\\res\\values-ta\\values-ta.xml",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-ta\\values-ta.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-ta\\values-ta.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,126",
-                        "endOffsets": "158,285"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,264,347,496,665,746",
+                        "endColumns": "69,88,82,148,168,80,76",
+                        "endOffsets": "170,259,342,491,660,741,818"
                     },
                     "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "11823,11931",
-                        "endColumns": "107,126",
-                        "endOffsets": "11926,12053"
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "6196,6690,12244,12572,13162,13520,13601",
+                        "endColumns": "69,88,82,148,168,80,76",
+                        "endOffsets": "6261,6774,12322,12716,13326,13596,13673"
                     }
                 },
                 {
@@ -69,23 +69,6 @@
                         "startOffsets": "5931,6028,6266,6360,6535,7038,7121,12058,12149,12327,12407,12721,12803,12971,13331,13400",
                         "endColumns": "96,83,93,100,90,82,108,90,94,79,78,81,85,89,68,119",
                         "endOffsets": "6023,6107,6355,6456,6621,7116,7225,12144,12239,12402,12481,12798,12884,13056,13395,13515"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,175,264,347,496,665,746",
-                        "endColumns": "69,88,82,148,168,80,76",
-                        "endOffsets": "170,259,342,491,660,741,818"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "6196,6690,12244,12572,13162,13520,13601",
-                        "endColumns": "69,88,82,148,168,80,76",
-                        "endOffsets": "6261,6774,12322,12716,13326,13596,13673"
                     }
                 },
                 {
@@ -120,6 +103,23 @@
                         "startOffsets": "4289,4387,4478,4568,4711,4816,4919,5077,5177,5285,5386,5495",
                         "endColumns": "97,90,89,142,104,102,157,99,107,100,108,124",
                         "endOffsets": "4382,4473,4563,4706,4811,4914,5072,5172,5280,5381,5490,5615"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,126",
+                        "endOffsets": "158,285"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "11823,11931",
+                        "endColumns": "107,126",
+                        "endOffsets": "11926,12053"
                     }
                 },
                 {

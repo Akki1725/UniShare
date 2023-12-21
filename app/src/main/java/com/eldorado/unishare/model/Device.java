@@ -1,8 +1,14 @@
 package com.eldorado.unishare.model;
 
+import androidx.annotation.NonNull;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName = "devices")
 public class Device {
+    @PrimaryKey @NonNull
     private final String mac;
-    private final String blueId;
+    private String blueId;
     private String name;
     private String deviceName;
     private String profileImage;
@@ -101,6 +107,14 @@ public class Device {
 
     public String getName() {
         return name;
+    }
+
+    public void setBlueId(String blueId) {
+        this.blueId = blueId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void updateName() {

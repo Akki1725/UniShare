@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="android:windowActivityTransitions">true</item>
-        <item name="motionInterpolator">?attr/motionEasingStandardInterpolator</item>
-        <item name="actionOverflowButtonStyle">@style/MenuColor</item>
-        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
         <item name="preferenceTheme">@style/Theme.App.Preferences</item>
+        <item name="popupMenuBackground">@drawable/popup_menu_bg</item>
+        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
+        <item name="motionInterpolator">?attr/motionEasingStandardInterpolator</item>
+        <item name="android:popupMenuStyle">@style/popupMenuStyle</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MenuColor</item>
         <item name="android:navigationBarColor">?attr/colorSurfaceMain</item>
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
         <item name="colorPrimary">@color/md_theme_dark_primary</item>

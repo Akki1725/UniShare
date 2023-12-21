@@ -85,6 +85,7 @@ color receiver_box
 color seed
 color sender_box
 color test
+color transparent
 dimen bottom_margin
 dimen fab_margin
 dimen item_round
@@ -105,10 +106,13 @@ drawable baseline_more_vert_24
 drawable baseline_search_24
 drawable bg_rounded
 drawable block
+drawable blue_bg
 drawable bluetooth
 drawable bluetooth_24px
 drawable bluetooth_icon
 drawable call
+drawable chat_background
+drawable chat_bg
 drawable check
 drawable contactless
 drawable container_bg
@@ -116,6 +120,7 @@ drawable copy
 drawable deletex
 drawable device_container_bg
 drawable dial_pad
+drawable eldorado
 drawable emoji
 drawable help
 drawable home
@@ -156,7 +161,9 @@ drawable mobile_button_clicked
 drawable mobile_button_selected
 drawable nav_item_bg
 drawable navigation_24
+drawable paisa
 drawable phone
+drawable popup_menu_bg
 drawable profile
 drawable receive_layout_conventional
 drawable receive_layout_end
@@ -178,8 +185,9 @@ drawable sih
 drawable storm
 drawable sync
 drawable test_image
+drawable tethering
 drawable tethering_24
-drawable text_cursor
+drawable text_container_drawable
 drawable toolbar_drop_shadow
 drawable world_normal
 drawable world_selected
@@ -219,10 +227,10 @@ id app_logo
 id attachmentBtn
 id block
 id blueIcon
-id blueId
 id blue_id
 id blue_id_container
 id bluetoothBtn
+id bluetooth_tethering
 id callEnd
 id call_icon
 id chatLayout
@@ -273,11 +281,12 @@ id last_name
 id last_name_container
 id listenBtn
 id listenForCallsBtn
-id lottieAnimationView
+id loading_animation
 id mainToolbar
 id main_layout
 id marginLayout
 id messageBar
+id moneyBtn
 id moreBtn
 id moreText
 id msgBox
@@ -349,6 +358,7 @@ string app_name
 string company_email
 string first_fragment_label
 string hello_blank_fragment
+string init_text
 string lorem_ipsum
 string next
 string previous
@@ -371,6 +381,7 @@ style ThemeOverlay.App.NavigationView
 style Theme.App.Preferences
 style TitleAppearance
 style Widget.App.NavigationView
+style popupMenuStyle
 xml backup_rules
 xml data_extraction_rules
 xml root_preferences

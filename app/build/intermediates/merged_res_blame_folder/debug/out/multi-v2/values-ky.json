@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-73:/values-ky/values-ky.xml",
+            "outputFile": "com.eldorado.unishare.app-mergeDebugResources-76:/values-ky/values-ky.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\260ed8963c60c9dbc6f5d8d8ae5781a7\\transformed\\preference-1.2.0\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,176,268,347,488,657,738",
-                        "endColumns": "70,91,78,140,168,80,78",
-                        "endOffsets": "171,263,342,483,652,733,812"
-                    },
-                    "to": {
-                        "startLines": "63,69,135,139,145,148,149",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "6096,6598,11986,12280,12849,13204,13285",
-                        "endColumns": "70,91,78,140,168,80,78",
-                        "endOffsets": "6162,6685,12060,12416,13013,13280,13359"
-                    }
-                },
                 {
                     "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\d3e32e1bb9ddfdea873fc2458b4867ad\\transformed\\appcompat-1.6.1\\res\\values-ky\\values-ky.xml",
                     "from": {
@@ -55,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\db6438ad1bffc528709665d0a47e1732\\transformed\\navigation-ui-2.6.0\\res\\values-ky\\values-ky.xml",
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\90e113d562216d499ebd9f98f0843928\\transformed\\preference-1.2.1\\res\\values-ky\\values-ky.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,165",
-                        "endColumns": "109,117",
-                        "endOffsets": "160,278"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,176,268,347,488,657,738",
+                        "endColumns": "70,91,78,140,168,80,78",
+                        "endOffsets": "171,263,342,483,652,733,812"
                     },
                     "to": {
-                        "startLines": "131,132",
-                        "startColumns": "4,4",
-                        "startOffsets": "11584,11694",
-                        "endColumns": "109,117",
-                        "endOffsets": "11689,11807"
+                        "startLines": "63,69,135,139,145,148,149",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "6096,6598,11986,12280,12849,13204,13285",
+                        "endColumns": "70,91,78,140,168,80,78",
+                        "endOffsets": "6162,6685,12060,12416,13013,13280,13359"
                     }
                 },
                 {
@@ -122,6 +105,23 @@
                         "endLines": "5,33,34,35,36,37,57,58,59,68,71,72,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,138",
                         "endColumns": "12,82,84,84,114,109,100,140,83,63,93,69,60,86,62,63,58,73,61,53,116,57,60,53,73,121,83,95,131,77,77,128,88,79,60,54,65,68,76,86,80,73,75,89,72,101,84,78,89,91,73,84,89,51,83,64,84,84,61,63,62,68,116,107,99,103,64,58,81",
                         "endOffsets": "310,3105,3190,3275,3390,3500,5608,5749,5833,6593,6865,6935,7176,7263,7326,7390,7449,7523,7585,7639,7756,7814,7875,7929,8003,8125,8209,8305,8437,8515,8593,8722,8811,8891,8952,9007,9073,9142,9219,9306,9387,9461,9537,9627,9700,9802,9887,9966,10056,10148,10222,10307,10397,10449,10533,10598,10683,10768,10830,10894,10957,11026,11143,11251,11351,11455,11520,11579,12275"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AK\\.gradle\\caches\\transforms-3\\4d626baabc99ab70133f8d9f1306603c\\transformed\\navigation-ui-2.7.6\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,165",
+                        "endColumns": "109,117",
+                        "endOffsets": "160,278"
+                    },
+                    "to": {
+                        "startLines": "131,132",
+                        "startColumns": "4,4",
+                        "startOffsets": "11584,11694",
+                        "endColumns": "109,117",
+                        "endOffsets": "11689,11807"
                     }
                 },
                 {
