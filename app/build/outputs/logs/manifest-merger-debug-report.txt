@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
 MERGED from [androidx.databinding:databinding-adapters:8.0.2] C:\Users\AK\.gradle\caches\transforms-3\75e55043df21a138dc80a4873d2d7b3f\transformed\databinding-adapters-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.0.2] C:\Users\AK\.gradle\caches\transforms-3\ebcdf57574d1e916d75df2f342deba88\transformed\databinding-ktx-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.0.2] C:\Users\AK\.gradle\caches\transforms-3\dbe2d44b2873e49775ae4cfbd1bfda07\transformed\databinding-runtime-8.0.2\AndroidManifest.xml:2:1-7:12
@@ -79,6 +79,7 @@ MERGED from [androidx.compose.runtime:runtime:1.3.0] C:\Users\AK\.gradle\caches\
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\AK\.gradle\caches\transforms-3\191f99f36349269739650384d895c213\transformed\sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\AK\.gradle\caches\transforms-3\86c3d31f5138b8ff4f5cf17c44c3228f\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\AK\.gradle\caches\transforms-3\adf90f875f7347ee430de5df80d4f5c4\transformed\flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\AK\.gradle\caches\transforms-3\b85782cf9f60e42ddeb6ea88ef96b6cc\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\AK\.gradle\caches\transforms-3\016b518c8bcf890dd2c5d9cf1209b817\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
@@ -97,95 +98,97 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AK
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\7e9320873c3e158e63dae7738060ad7a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\91616649a0bbe6fa4f3c475207172830\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\8366e08a87e71a0da958c6fc88525c3f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
 	package
 		INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
 		INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
 		INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:1-88:12
 		INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.BLUETOOTH
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:5-68
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:22-65
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:5-74
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:5-74
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:22-71
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:22-71
 uses-permission#android.permission.BLUETOOTH_ADVERTISE
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:5-78
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:22-75
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:22-75
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:5-76
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:5-76
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:22-73
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:22-73
 uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:5-73
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:5-73
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:22-70
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:22-70
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:5-71
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:22-68
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:22-77
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:14:22-77
 uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:15:5-17:31
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:16:5-18:31
 	tools:node
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:17:9-28
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:18:9-28
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:16:9-63
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:17:9-63
 uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:18:5-20:31
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:20:5-22:31
 	tools:node
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:20:9-28
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:22:9-28
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:19:9-65
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:21:9-65
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:22:5-24:38
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:24:5-26:38
 	android:maxSdkVersion
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:26:9-35
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:23:9-69
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:25:9-69
 uses-permission#android.permission.WAKE_LOCK
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:25:5-68
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:25:22-65
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:27:22-65
 uses-permission#android.permission.USE_FULL_SCREEN_INTENT
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:26:5-81
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:28:5-81
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:26:22-78
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:28:22-78
 uses-feature#android.hardware.bluetooth_le
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:28:5-30:35
-	android:required
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:30:9-32
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:30:5-31:56
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:29:9-53
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:31:9-53
 application
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:32:5-77:19
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:33:5-86:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\AK\.gradle\caches\transforms-3\e2424a26d41fdb0c867ea0b5cb67a7e3\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\AK\.gradle\caches\transforms-3\e2424a26d41fdb0c867ea0b5cb67a7e3\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:33:5-46:19
@@ -212,6 +215,8 @@ MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transf
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\AK\.gradle\caches\transforms-3\86c3d31f5138b8ff4f5cf17c44c3228f\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\AK\.gradle\caches\transforms-3\86c3d31f5138b8ff4f5cf17c44c3228f\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:7:5-12:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\AK\.gradle\caches\transforms-3\bc2a21ddf68422f52b124d25e56c70f7\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\AK\.gradle\caches\transforms-3\bc2a21ddf68422f52b124d25e56c70f7\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
@@ -223,89 +228,105 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AK
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:39:9-35
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:40:9-35
 	android:label
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:37:9-41
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:38:9-41
 	android:fullBackupContent
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:35:9-54
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:36:9-54
 	android:roundIcon
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:38:9-48
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:39:9-48
 	tools:targetApi
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:41:9-29
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:42:9-29
 	android:icon
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:36:9-43
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:37:9-43
 	android:allowBackup
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:33:9-35
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:34:9-35
 	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:40:9-40
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:41:9-40
 	android:dataExtractionRules
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:34:9-65
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:35:9-65
 activity#com.eldorado.unishare.activity.AboutActivity
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:42:9-45:40
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:43:9-47:40
+	android:screenOrientation
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:45:13-49
 	android:exported
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:47:13-37
 	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:44:13-46
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:46:13-46
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:43:13-51
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:44:13-51
 activity#com.eldorado.unishare.activity.SettingsActivity
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:46:9-50:52
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:48:9-53:52
+	android:screenOrientation
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:49:13-60
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:51:13-60
 	android:exported
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:50:13-37
 	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:53:13-49
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:47:13-54
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:49:13-54
 activity#com.eldorado.unishare.activity.SplashScreenActivity
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:51:9-60:20
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:54:9-64:20
+	android:screenOrientation
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:57:13-49
 	android:exported
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:56:13-36
 	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:54:13-47
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:58:13-47
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:52:13-58
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:55:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:55:13-59:29
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:56:17-69
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:56:25-66
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:58:17-77
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:58:27-74
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:62:27-74
 activity#com.eldorado.unishare.activity.VoiceCallActivity
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:61:9-64:48
-	android:exported
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:63:13-37
-	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:64:13-45
-	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:62:13-55
-activity#com.eldorado.unishare.activity.ChatActivity
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:65:9-68:48
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:65:9-69:48
+	android:screenOrientation
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:68:13-49
 	android:exported
 		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:67:13-37
 	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:68:13-45
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:69:13-45
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:66:13-50
-activity#com.eldorado.unishare.activity.MainActivity
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:69:9-72:47
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:66:13-55
+activity#com.eldorado.unishare.activity.ChatActivity
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:70:9-74:48
+	android:screenOrientation
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:73:13-49
 	android:exported
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:71:13-36
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:72:13-37
 	android:theme
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:72:13-44
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:74:13-45
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:70:13-50
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:71:13-50
+activity#com.eldorado.unishare.activity.MainActivity
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:75:9-81:47
+	android:screenOrientation
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:80:13-49
+	android:launchMode
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:78:13-48
+	android:windowSoftInputMode
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:79:13-52
+	android:exported
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:77:13-36
+	android:theme
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:81:13-44
+	android:name
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:76:13-50
 meta-data#preloaded_fonts
-ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:74:9-76:57
+ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:83:9-85:57
 	android:resource
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:76:13-54
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:85:13-54
 	android:name
-		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:75:13-43
+		ADDED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:84:13-43
 uses-sdk
 INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
@@ -460,6 +481,8 @@ MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\AK\.gradle\caches\transf
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\AK\.gradle\caches\transforms-3\191f99f36349269739650384d895c213\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\AK\.gradle\caches\transforms-3\86c3d31f5138b8ff4f5cf17c44c3228f\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\AK\.gradle\caches\transforms-3\86c3d31f5138b8ff4f5cf17c44c3228f\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\AK\.gradle\caches\transforms-3\adf90f875f7347ee430de5df80d4f5c4\transformed\flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\AK\.gradle\caches\transforms-3\adf90f875f7347ee430de5df80d4f5c4\transformed\flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\AK\.gradle\caches\transforms-3\b85782cf9f60e42ddeb6ea88ef96b6cc\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
@@ -622,6 +645,14 @@ ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transfo
 		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value

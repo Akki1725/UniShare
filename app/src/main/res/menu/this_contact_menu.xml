@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:id="@+id/group_main_menu">
+
+        <item android:id="@+id/copy"
+            android:title="Copy number"
+            android:icon="@drawable/copy"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>

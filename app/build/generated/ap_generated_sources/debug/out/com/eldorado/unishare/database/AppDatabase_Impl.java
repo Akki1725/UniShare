@@ -26,20 +26,24 @@ import java.util.Set;
 public final class AppDatabase_Impl extends AppDatabase {
   private volatile DeviceDao _deviceDao;
 
+  private volatile MessageDao _messageDao;
+
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `devices` (`mac` TEXT NOT NULL, `blueId` TEXT, `name` TEXT, `deviceName` TEXT, `profileImage` TEXT, `firstName` TEXT, `lastName` TEXT, `lastMsg` TEXT, `address` TEXT, `city` TEXT, `zip` TEXT, `status` TEXT, PRIMARY KEY(`mac`))");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `messages` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `text` TEXT, `senderId` TEXT, `receiverId` TEXT, `lastMsgId` TEXT, `nextMsgId` TEXT)");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '5c7ba6d1a83068fa8cc19a516436031e')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '7e5ee37c840c58d12c148ee058fce0b1')");
       }
 
       @Override
       public void dropAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("DROP TABLE IF EXISTS `devices`");
+        db.execSQL("DROP TABLE IF EXISTS `messages`");
         final List<? extends RoomDatabase.Callback> _callbacks = mCallbacks;
         if (_callbacks != null) {
           for (RoomDatabase.Callback _callback : _callbacks) {
@@ -105,9 +109,25 @@ public final class AppDatabase_Impl extends AppDatabase {
                   + " Expected:\n" + _infoDevices + "\n"
                   + " Found:\n" + _existingDevices);
         }
+        final HashMap<String, TableInfo.Column> _columnsMessages = new HashMap<String, TableInfo.Column>(6);
+        _columnsMessages.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessages.put("text", new TableInfo.Column("text", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessages.put("senderId", new TableInfo.Column("senderId", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessages.put("receiverId", new TableInfo.Column("receiverId", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessages.put("lastMsgId", new TableInfo.Column("lastMsgId", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessages.put("nextMsgId", new TableInfo.Column("nextMsgId", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysMessages = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesMessages = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoMessages = new TableInfo("messages", _columnsMessages, _foreignKeysMessages, _indicesMessages);
+        final TableInfo _existingMessages = TableInfo.read(db, "messages");
+        if (!_infoMessages.equals(_existingMessages)) {
+          return new RoomOpenHelper.ValidationResult(false, "messages(com.eldorado.unishare.model.Message).\n"
+                  + " Expected:\n" + _infoMessages + "\n"
+                  + " Found:\n" + _existingMessages);
+        }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "5c7ba6d1a83068fa8cc19a516436031e", "8b00e9bc5af544bb0d344539b23230a5");
+    }, "7e5ee37c840c58d12c148ee058fce0b1", "30025871f5c7d8cef149aff09c9fe75b");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;
@@ -118,7 +138,7 @@ public final class AppDatabase_Impl extends AppDatabase {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     final HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "devices");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "devices","messages");
   }
 
   @Override
@@ -128,6 +148,7 @@ public final class AppDatabase_Impl extends AppDatabase {
     try {
       super.beginTransaction();
       _db.execSQL("DELETE FROM `devices`");
+      _db.execSQL("DELETE FROM `messages`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -143,6 +164,7 @@ public final class AppDatabase_Impl extends AppDatabase {
   protected Map<Class<?>, List<Class<?>>> getRequiredTypeConverters() {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(DeviceDao.class, DeviceDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(MessageDao.class, MessageDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -171,6 +193,20 @@ public final class AppDatabase_Impl extends AppDatabase {
           _deviceDao = new DeviceDao_Impl(this);
         }
         return _deviceDao;
+      }
+    }
+  }
+
+  @Override
+  public MessageDao messageDao() {
+    if (_messageDao != null) {
+      return _messageDao;
+    } else {
+      synchronized(this) {
+        if(_messageDao == null) {
+          _messageDao = new MessageDao_Impl(this);
+        }
+        return _messageDao;
       }
     }
   }

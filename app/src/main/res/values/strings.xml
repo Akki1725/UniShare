@@ -60,6 +60,35 @@
         This is a proposal prototype of our solution to the problem statement given by <b>ISRO</b>.</string>
 
     <string name="company_email">eldoradocorporationindia@gmail.com</string>
-    <string name="init_text">Initializing...</string>
+    <string name="init_text">Initializing…</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="star">*</string>
+    <string name="hash">#</string>
+
+    <string name="subtext_one">λ</string>
+    <string name="subtext_two">ABC</string>
+    <string name="subtext_three">DEF</string>
+    <string name="subtext_four">GHI</string>
+    <string name="subtext_five">JKL</string>
+    <string name="subtext_six">MNO</string>
+    <string name="subtext_seven">PQRS</string>
+    <string name="subtext_eight">TUV</string>
+    <string name="subtext_nine">WXYZ</string>
+    <string name="subtext_zero">+</string>
+    <string name="subtext_star">₹</string>
+    <string name="subtext_hash">₹</string>
+    <string name="device_header">This Device\'s BlueID</string>
+    <string name="call">Call</string>
+
 
 </resources>

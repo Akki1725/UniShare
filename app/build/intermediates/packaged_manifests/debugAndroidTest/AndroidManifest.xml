@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.michaelians.bluteeth.test" >
+    package="com.eldorado.unishare.test" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -10,8 +10,8 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.michaelians.bluteeth"
-        android:targetPackage="com.michaelians.bluteeth" />
+        android:label="Tests for com.eldorado.unishare"
+        android:targetPackage="com.eldorado.unishare" />
 
     <uses-permission android:name="android.permission.REORDER_TASKS" />
 

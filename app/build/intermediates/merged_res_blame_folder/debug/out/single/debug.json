@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_call.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\call.xml"
-    },
-    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\color_navigation_item_color.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\color\\navigation_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\call.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_send_layout_middle.xml.flat",
@@ -16,16 +16,20 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\fragment_devices.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_receive_layout_conventional.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\receive_layout_conventional.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_ic_video_call.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_video_call.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\mipmap-xxxhdpi\\ic_launcher_monochrome.png"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_ic_video_call.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_video_call.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_receive_layout_conventional.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\receive_layout_conventional.xml"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\raw_blue_connect.json.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\raw\\blue_connect.json"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_navigation_24.xml.flat",
@@ -38,10 +42,6 @@
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_ic_mute.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_mute.xml"
-    },
-    {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\color_test.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\color\\test.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\menu_nav_menu.xml.flat",
@@ -100,6 +100,10 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\mipmap-xxxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_device_icon_bg.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\device_icon_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\font_open_sans.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\font\\open_sans.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_img_1.png.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_click_ripple.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\click_ripple.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_add_24.xml.flat",
@@ -244,6 +252,10 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\mipmap-xhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_ripple_drawable.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ripple_drawable.xml"
+    },
+    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\font_roboto_mono.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\font\\roboto_mono.xml"
     },
@@ -288,6 +300,10 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\baseline_keyboard_voice_24.xml"
     },
     {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_info.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\info.xml"
     },
@@ -320,12 +336,12 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_call_outgoing.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_overflow_menu_bg.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\overflow_menu_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_ic_chats.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_chats.xml"
+    },
+    {
+        "merged": "com.eldorado.unishare.app-merged_res-78:/layout_activity_chat.xml.flat",
+        "source": "com.eldorado.unishare.app-main-80:/layout/activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_send.png.flat",
@@ -392,6 +408,10 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\device_container_bg.xml"
     },
     {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\menu_this_contact_menu.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\menu\\this_contact_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_send_button_bg.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\send_button_bg.xml"
     },
@@ -410,6 +430,10 @@
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\layout_dialer.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\dialer.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\mipmap-hdpi_ic_launcher_background.png.flat",
@@ -460,12 +484,12 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\isro.png"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\layout_settings_activity.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\settings_activity.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_backspace.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\backspace.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\raw_loading_alt.json.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\raw\\loading_alt.json"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\settings_activity.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\font_roboto_condensed_regular.xml.flat",
@@ -518,6 +542,10 @@
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_logo_full.png.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\logo_full.png"
+    },
+    {
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_share_24.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\share_24.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\color_navigation_item_background_color.xml.flat",
@@ -624,10 +652,6 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\ic_scanned.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\layout_custom_action.xml.flat",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\custom_action.xml"
-    },
-    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\font_roboto_mono_medium.xml.flat",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\font\\roboto_mono_medium.xml"
     },
@@ -636,8 +660,8 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\img.png"
     },
     {
-        "merged": "com.eldorado.unishare.app-merged_res-78:/layout_activity_splash_screen.xml.flat",
-        "source": "com.eldorado.unishare.app-main-80:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_dialer_bg.xml.flat",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\drawable\\dialer_bg.xml"
     },
     {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-merged_res-78:\\drawable_phone.xml.flat",

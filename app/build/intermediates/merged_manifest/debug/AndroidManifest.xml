@@ -8,6 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
@@ -23,9 +24,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
 
-    <uses-feature
-        android:name="android.hardware.bluetooth_le"
-        android:required="true" />
+    <uses-feature android:name="android.hardware.bluetooth_le" />
 
     <queries>
         <provider
@@ -50,19 +49,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.eldorado.unishare.activity.AboutActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/AboutTheme" />
         <activity
             android:name="com.eldorado.unishare.activity.SettingsActivity"
             android:exported="false"
             android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
             android:theme="@style/SettingsTheme" />
         <activity
             android:name="com.eldorado.unishare.activity.SplashScreenActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,15 +76,20 @@
         <activity
             android:name="com.eldorado.unishare.activity.VoiceCallActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/CallTheme" />
         <activity
             android:name="com.eldorado.unishare.activity.ChatActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/ChatTheme" />
         <activity
             android:name="com.eldorado.unishare.activity.MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -132,6 +140,11 @@
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.eldorado.unishare.com.squareup.picasso"
             android:exported="false" />
 
         <receiver

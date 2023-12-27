@@ -4,6 +4,7 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
+import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
@@ -26,6 +27,8 @@ public final class DeviceDao_Impl implements DeviceDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter<Device> __insertionAdapterOfDevice;
+
+  private final EntityDeletionOrUpdateAdapter<Device> __updateAdapterOfDevice;
 
   public DeviceDao_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
@@ -100,6 +103,82 @@ public final class DeviceDao_Impl implements DeviceDao {
         }
       }
     };
+    this.__updateAdapterOfDevice = new EntityDeletionOrUpdateAdapter<Device>(__db) {
+      @Override
+      @NonNull
+      protected String createQuery() {
+        return "UPDATE OR ABORT `devices` SET `mac` = ?,`blueId` = ?,`name` = ?,`deviceName` = ?,`profileImage` = ?,`firstName` = ?,`lastName` = ?,`lastMsg` = ?,`address` = ?,`city` = ?,`zip` = ?,`status` = ? WHERE `mac` = ?";
+      }
+
+      @Override
+      protected void bind(@NonNull final SupportSQLiteStatement statement, final Device entity) {
+        if (entity.getMac() == null) {
+          statement.bindNull(1);
+        } else {
+          statement.bindString(1, entity.getMac());
+        }
+        if (entity.getBlueId() == null) {
+          statement.bindNull(2);
+        } else {
+          statement.bindString(2, entity.getBlueId());
+        }
+        if (entity.getName() == null) {
+          statement.bindNull(3);
+        } else {
+          statement.bindString(3, entity.getName());
+        }
+        if (entity.getDeviceName() == null) {
+          statement.bindNull(4);
+        } else {
+          statement.bindString(4, entity.getDeviceName());
+        }
+        if (entity.getProfileImage() == null) {
+          statement.bindNull(5);
+        } else {
+          statement.bindString(5, entity.getProfileImage());
+        }
+        if (entity.getFirstName() == null) {
+          statement.bindNull(6);
+        } else {
+          statement.bindString(6, entity.getFirstName());
+        }
+        if (entity.getLastName() == null) {
+          statement.bindNull(7);
+        } else {
+          statement.bindString(7, entity.getLastName());
+        }
+        if (entity.getLastMsg() == null) {
+          statement.bindNull(8);
+        } else {
+          statement.bindString(8, entity.getLastMsg());
+        }
+        if (entity.getAddress() == null) {
+          statement.bindNull(9);
+        } else {
+          statement.bindString(9, entity.getAddress());
+        }
+        if (entity.getCity() == null) {
+          statement.bindNull(10);
+        } else {
+          statement.bindString(10, entity.getCity());
+        }
+        if (entity.getZip() == null) {
+          statement.bindNull(11);
+        } else {
+          statement.bindString(11, entity.getZip());
+        }
+        if (entity.getStatus() == null) {
+          statement.bindNull(12);
+        } else {
+          statement.bindString(12, entity.getStatus());
+        }
+        if (entity.getMac() == null) {
+          statement.bindNull(13);
+        } else {
+          statement.bindString(13, entity.getMac());
+        }
+      }
+    };
   }
 
   @Override
@@ -108,6 +187,18 @@ public final class DeviceDao_Impl implements DeviceDao {
     __db.beginTransaction();
     try {
       __insertionAdapterOfDevice.insert(device);
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+    }
+  }
+
+  @Override
+  public void updateDatabase(final Device device) {
+    __db.assertNotSuspendingTransaction();
+    __db.beginTransaction();
+    try {
+      __updateAdapterOfDevice.handle(device);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();

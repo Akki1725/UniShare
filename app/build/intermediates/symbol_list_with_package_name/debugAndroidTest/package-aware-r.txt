@@ -1,4 +1,4 @@
-com.michaelians.bluteeth.test
+com.eldorado.unishare.test
 attr alpha
 attr font
 attr fontProviderAuthority

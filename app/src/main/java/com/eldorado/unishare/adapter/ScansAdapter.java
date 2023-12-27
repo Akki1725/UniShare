@@ -46,9 +46,10 @@ public class ScansAdapter extends RecyclerView.Adapter<ScansAdapter.ScansViewHol
     @Override
     public void onBindViewHolder(@NonNull ScansAdapter.ScansViewHolder holder, int position) {
         Device device = devices.get(position);
-        holder.binding.deviceName.setText(device.getName());
+        holder.binding.deviceName.setText(device.getDeviceName());
         holder.binding.status.setText(device.getBlueId());
         holder.itemView.setOnClickListener(v -> pairDevice(device));
+        holder.binding.pairDevice.setOnClickListener(v -> pairDevice(device));
     }
 
     private Boolean pairDevice(Device device) {

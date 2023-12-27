@@ -17,6 +17,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/device_image"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/ic_devices"
+        android:visibility="gone"
+        android:padding="7dp"
+        android:background="@drawable/device_icon_bg"
+        app:tint="?attr/colorOnSecondaryContainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/device_name"
         android:layout_width="wrap_content"
@@ -27,9 +40,9 @@
         android:focusableInTouchMode="true"
         android:fontFamily="@font/open_sans"
         android:marqueeRepeatLimit="marquee_forever"
-        android:maxWidth="110dp"
+        android:maxWidth="200dp"
         android:maxLines="1"
-        android:text="Device Name"
+        android:text="@string/device_header"
         android:textColor="?attr/colorOnSurface"
         android:textSize="15sp"
         android:textStyle="bold"

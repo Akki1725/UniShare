@@ -8,6 +8,7 @@ import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothSocket;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -28,12 +29,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsAnimationCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.room.Room;
 
+import com.bumptech.glide.Glide;
 import com.eldorado.unishare.R;
 import com.eldorado.unishare.adapter.MessagesAdapter;
+import com.eldorado.unishare.database.AppDatabase;
 import com.eldorado.unishare.databinding.ActivityChatBinding;
 import com.eldorado.unishare.feature.SendReceive;
+import com.eldorado.unishare.feature.SnackbarUtils;
+import com.eldorado.unishare.model.Device;
 import com.eldorado.unishare.model.Message;
 import com.eldorado.unishare.singleton.BluetoothSocketHolder;
 import com.eldorado.unishare.singleton.ReceiverInstanceHolder;
@@ -45,6 +53,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ChatActivity extends AppCompatActivity {
 
@@ -54,12 +64,14 @@ public class ChatActivity extends AppCompatActivity {
 
     ActivityChatBinding binding;
     ActivityResultLauncher<String> getContentLauncher;
-    String deviceName, senderBlueId, clientBlueId;
+    String deviceName, senderBlueId, clientBlueId, profileImage;
     Handler handler;
     SendReceive sendReceive;
     MessagesAdapter adapter;
     ArrayList<Message> messages;
-    boolean isKeyboardOpen = false;
+    AppDatabase appDatabase;
+    ExecutorService executorService;
+    boolean isKeyboardOpen, connected = false;
 
     @SuppressLint("NotifyDataSetChanged")
     @Override
@@ -105,12 +117,31 @@ public class ChatActivity extends AppCompatActivity {
 
         deviceName = getIntent().getStringExtra("name");
         clientBlueId = getIntent().getStringExtra("blueId");
+        profileImage = getIntent().getStringExtra("profileImage");
+        connected = getIntent().getBooleanExtra("connected", false);
         senderBlueId = ThisDevice.getDevice().getBlueId();
-        BluetoothSocket socket = BluetoothSocketHolder.getSocket();
+        appDatabase = Room.databaseBuilder(this, AppDatabase.class, "app-database").build();
+        executorService = Executors.newSingleThreadExecutor();
         messages = new ArrayList<>();
         adapter = new MessagesAdapter(this, messages, senderBlueId, clientBlueId);
         binding.chatView.setAdapter(adapter);
         binding.chatView.setLayoutManager(new LinearLayoutManager(this));
+        BluetoothSocket socket = BluetoothSocketHolder.getSocket();
+
+        LiveData<List<Message>> storedMessagesDatabase = appDatabase.messageDao().getMessages(senderBlueId, clientBlueId);
+        storedMessagesDatabase.observe(this, storedMessages -> {
+            if (storedMessages != null) {
+                messages.clear();
+                for (Message msg: storedMessages) {
+                    Message message = new Message(msg.getText(), msg.getSenderId(), msg.getReceiverId());
+                    message.setNextMsgId(msg.getNextMsgId());
+                    message.setLastMsgId(msg.getLastMsgId());
+                    messages.add(message);
+                }
+                adapter.notifyDataSetChanged();
+            }
+        });
+
         scrollToBottom(false);
 
         binding.chatView.getViewTreeObserver().addOnGlobalLayoutListener(() -> {
@@ -146,7 +177,8 @@ public class ChatActivity extends AppCompatActivity {
                 int length = msg.arg1;
                 String receiverId = String.valueOf(msg.arg2);
                 String msgTemp = new String(readBuffer, 0, length);
-                Message message = new Message(msgTemp, receiverId);
+                Message message = new Message(msgTemp, receiverId, senderBlueId);
+                insertMessage(message);
                 messages.add(message);
 
                 for (int i = 0; i < messages.size(); i++) {
@@ -180,18 +212,28 @@ public class ChatActivity extends AppCompatActivity {
             return true;
         });
 
-        sendReceive = new SendReceive(socket, handler, clientBlueId);
-        sendReceive.setFunctionToExecute(SendReceive.Function.READ);
-        ReceiverInstanceHolder.setInstance(sendReceive);
-        ReceiverInstanceHolder.getInstance().start();
+        if (connected) {
+            sendReceive = new SendReceive(socket, handler, clientBlueId);
+            sendReceive.setFunctionToExecute(SendReceive.Function.READ);
+            ReceiverInstanceHolder.setInstance(sendReceive);
+            ReceiverInstanceHolder.getInstance().start();
+        }
+
+        if (!connected) {
+            binding.debugWindow.setText("Not connected");
+        }
 
         binding.userToolbar.setTitle(deviceName);
         binding.userToolbar.setNavigationOnClickListener(v -> {
             getOnBackPressedDispatcher().onBackPressed();
-            try {
-                socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (connected) {
+                try {
+                    if (socket != null) {
+                        socket.close();
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         });
 
@@ -247,7 +289,6 @@ public class ChatActivity extends AppCompatActivity {
         };
 
         ViewCompat.setWindowInsetsAnimationCallback(chatView, softKeyboardAnimation);
-
         binding.msgBox.setOnKeyListener((v, keyCode, event) -> {
             if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP) {
                 if (binding.msgBox.isFocused() && TextUtils.isEmpty(binding.msgBox.getText())) {
@@ -279,8 +320,11 @@ public class ChatActivity extends AppCompatActivity {
             }
         });
 
-
         binding.sendBtn.setOnClickListener(v -> {
+            if (!connected) {
+                SnackbarUtils.showSnackbar(this, binding.getRoot(), "Bluetooth is not connected!", Toast.LENGTH_SHORT);
+                return;
+            }
             sendMessage();
         });
 
@@ -300,7 +344,8 @@ public class ChatActivity extends AppCompatActivity {
             sendReceive.write(messageBytes);
         }
 
-        Message msg = new Message(messageTxt, senderBlueId);
+        Message msg = new Message(messageTxt, senderBlueId, clientBlueId);
+        insertMessage(msg);
         messages.add(msg);
 
         for (int i = 0; i < messages.size(); i++) {
@@ -328,6 +373,10 @@ public class ChatActivity extends AppCompatActivity {
         binding.msgBox.setText("");
     }
 
+    private void insertMessage(Message message) {
+        executorService.execute(() -> appDatabase.messageDao().addMessageToDatabase(message));
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.chat_menu, menu);
@@ -349,5 +398,11 @@ public class ChatActivity extends AppCompatActivity {
                 binding.chatView.smoothScrollToPosition(adapter.getItemCount() - 1);
             }
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        executorService.shutdown();
     }
 }

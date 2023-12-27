@@ -66,10 +66,10 @@ public class ServerClass extends Thread {
         switch (selectedFunction) {
             case LISTEN:
                 listen();
+                startPingPong();
                 break;
             case LISTEN_FOR_CALLS:
                 listenForCalls();
-                startPingPong();
                 break;
             default:
                 break;
@@ -98,8 +98,10 @@ public class ServerClass extends Thread {
                     handler.sendMessage(connectedMessage);
                     BluetoothSocketHolder.setSocket(socket);
                     Intent intent = new Intent(context, ChatActivity.class);
-                    intent.putExtra("name", connectedDevice.getName());
+                    intent.putExtra( "name", connectedDevice.getName());
                     intent.putExtra("blueId", connectedDevice.getBlueId());
+                    intent.putExtra("profileImage", connectedDevice.getProfileImage());
+                    intent.putExtra("connected", true);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(intent);
                     break;
@@ -176,6 +178,9 @@ public class ServerClass extends Thread {
                     Intent intent = new Intent(context, VoiceCallActivity.class);
                     intent.putExtra("deviceName", connectedDevice.getName());
                     intent.putExtra("blueId", connectedDevice.getBlueId());
+                    intent.putExtra("profileImage", connectedDevice.getProfileImage());
+                    intent.putExtra("city", connectedDevice.getCity());
+                    intent.putExtra("isUnknown", false);
                     BluetoothSocketHolder.setSocket(socket);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(intent);

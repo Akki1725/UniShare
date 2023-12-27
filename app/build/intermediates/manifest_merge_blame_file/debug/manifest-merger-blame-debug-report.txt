@@ -10,290 +10,316 @@
 9        android:targetSdkVersion="34" />
 9-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.BLUETOOTH" />
-11-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:5-68
-11-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:22-65
-12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-12-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:5-74
-12-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:22-71
-13    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-13-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:5-78
-13-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:22-75
-14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-14-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:5-76
-14-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:22-73
-15    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-15-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:5-73
-15-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:22-70
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:5-79
-16-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:5-81
-17-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:22-78
-18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-18-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:5-71
-18-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:22-68
-19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-19-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:5-80
-19-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:22-77
-20    <uses-permission
-20-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:22:5-24:38
-21        android:name="android.permission.ACCESS_BACKGROUND_LOCATION"
-21-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:23:9-69
-22        android:maxSdkVersion="30" />
-22-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:24:9-35
-23    <uses-permission android:name="android.permission.WAKE_LOCK" />
-23-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:25:5-68
-23-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:25:22-65
-24    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-24-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:26:5-81
-24-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:26:22-78
-25
-26    <uses-feature
-26-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:28:5-30:35
-27        android:name="android.hardware.bluetooth_le"
-27-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:29:9-53
-28        android:required="true" />
-28-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:30:9-32
-29
-30    <queries>
-30-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
-31        <provider
-31-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
-32            android:name="com.android.car.ui.plugin.PluginNameProvider"
-32-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
-33            android:authorities="com.android.car.ui.plugin" />
-33-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
-34    </queries>
-35
-36    <permission
-36-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-37        android:name="com.eldorado.unishare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-37-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-38        android:protectionLevel="signature" />
-38-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-39
-40    <uses-permission android:name="com.eldorado.unishare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-40-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-40-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-41
-42    <application
-42-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:32:5-77:19
-43        android:allowBackup="true"
-43-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:33:9-35
-44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-44-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-45        android:dataExtractionRules="@xml/data_extraction_rules"
-45-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:34:9-65
-46        android:debuggable="true"
-47        android:extractNativeLibs="false"
-48        android:fullBackupContent="@xml/backup_rules"
-48-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:35:9-54
-49        android:icon="@mipmap/ic_launcher"
-49-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:36:9-43
-50        android:label="@string/app_name"
-50-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:37:9-41
-51        android:roundIcon="@mipmap/ic_launcher"
-51-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:38:9-48
-52        android:supportsRtl="true"
-52-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:39:9-35
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:5-68
+12-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:5-74
+13-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:7:22-71
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+14-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:5-78
+14-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:8:22-75
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:5-76
+15-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:5-73
+16-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:10:22-70
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:5-79
+17-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:5-81
+18-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:5-71
+19-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:13:22-68
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:14:5-80
+20-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission
+21-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:24:5-26:38
+22        android:name="android.permission.ACCESS_BACKGROUND_LOCATION"
+22-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:25:9-69
+23        android:maxSdkVersion="30" />
+23-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:26:9-35
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:27:5-68
+24-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:27:22-65
+25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+25-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:28:5-81
+25-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:28:22-78
+26
+27    <uses-feature android:name="android.hardware.bluetooth_le" />
+27-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:30:5-31:56
+27-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:31:9-53
+28
+29    <queries>
+29-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
+30        <provider
+30-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
+31            android:name="com.android.car.ui.plugin.PluginNameProvider"
+31-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
+32            android:authorities="com.android.car.ui.plugin" />
+32-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
+33    </queries>
+34
+35    <permission
+35-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+36        android:name="com.eldorado.unishare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.eldorado.unishare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:33:5-86:19
+42        android:allowBackup="true"
+42-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:34:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.12.0] C:\Users\AK\.gradle\caches\transforms-3\d50a1008623662a14e2faeeed3a3864b\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:35:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="@xml/backup_rules"
+47-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:36:9-54
+48        android:icon="@mipmap/ic_launcher"
+48-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:37:9-43
+49        android:label="@string/app_name"
+49-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:38:9-41
+50        android:roundIcon="@mipmap/ic_launcher"
+50-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:39:9-48
+51        android:supportsRtl="true"
+51-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:40:9-35
+52        android:testOnly="true"
 53        android:theme="@style/AppTheme" >
-53-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:40:9-40
+53-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:41:9-40
 54        <activity
-54-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:42:9-45:40
+54-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:43:9-47:40
 55            android:name="com.eldorado.unishare.activity.AboutActivity"
-55-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:43:13-51
+55-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:44:13-51
 56            android:exported="false"
-56-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:45:13-37
-57            android:theme="@style/AboutTheme" />
-57-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:44:13-46
-58        <activity
-58-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:46:9-50:52
-59            android:name="com.eldorado.unishare.activity.SettingsActivity"
-59-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:47:13-54
-60            android:exported="false"
-60-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:48:13-37
-61            android:label="@string/title_activity_settings"
-61-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:49:13-60
-62            android:theme="@style/SettingsTheme" />
-62-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:50:13-49
-63        <activity
-63-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:51:9-60:20
-64            android:name="com.eldorado.unishare.activity.SplashScreenActivity"
-64-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:52:13-58
-65            android:exported="true"
-65-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:53:13-36
-66            android:theme="@style/SplashTheme" >
-66-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:54:13-47
-67            <intent-filter>
-67-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:55:13-59:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:56:17-69
-68-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:56:25-66
-69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:58:17-77
-70-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:58:27-74
-71            </intent-filter>
-72        </activity>
-73        <activity
-73-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:61:9-64:48
-74            android:name="com.eldorado.unishare.activity.VoiceCallActivity"
-74-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:62:13-55
-75            android:exported="false"
-75-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:63:13-37
-76            android:theme="@style/CallTheme" />
-76-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:64:13-45
-77        <activity
-77-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:65:9-68:48
-78            android:name="com.eldorado.unishare.activity.ChatActivity"
-78-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:66:13-50
-79            android:exported="false"
-79-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:67:13-37
-80            android:theme="@style/ChatTheme" />
-80-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:68:13-45
+56-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:47:13-37
+57            android:screenOrientation="portrait"
+57-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:45:13-49
+58            android:theme="@style/AboutTheme" />
+58-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:46:13-46
+59        <activity
+59-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:48:9-53:52
+60            android:name="com.eldorado.unishare.activity.SettingsActivity"
+60-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:49:13-54
+61            android:exported="false"
+61-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:50:13-37
+62            android:label="@string/title_activity_settings"
+62-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:51:13-60
+63            android:screenOrientation="portrait"
+63-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:52:13-49
+64            android:theme="@style/SettingsTheme" />
+64-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:53:13-49
+65        <activity
+65-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:54:9-64:20
+66            android:name="com.eldorado.unishare.activity.SplashScreenActivity"
+66-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:55:13-58
+67            android:exported="true"
+67-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:56:13-36
+68            android:screenOrientation="portrait"
+68-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:57:13-49
+69            android:theme="@style/SplashTheme" >
+69-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:58:13-47
+70            <intent-filter>
+70-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:59:13-63:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:60:17-69
+71-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:60:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:62:17-77
+73-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:62:27-74
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:65:9-69:48
+77            android:name="com.eldorado.unishare.activity.VoiceCallActivity"
+77-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:66:13-55
+78            android:exported="false"
+78-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:67:13-37
+79            android:screenOrientation="portrait"
+79-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:68:13-49
+80            android:theme="@style/CallTheme" />
+80-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:69:13-45
 81        <activity
-81-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:69:9-72:47
-82            android:name="com.eldorado.unishare.activity.MainActivity"
-82-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:70:13-50
-83            android:exported="true"
-83-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:71:13-36
-84            android:theme="@style/AppTheme" />
-84-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:72:13-44
-85
-86        <meta-data
-86-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:74:9-76:57
-87            android:name="preloaded_fonts"
-87-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:75:13-43
-88            android:resource="@array/preloaded_fonts" />
-88-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:76:13-54
-89
-90        <provider
-90-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
-91            android:name="com.android.car.ui.core.CarUiInstaller"
-91-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
-92            android:authorities="com.eldorado.unishare.CarUiInstaller"
-92-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
-93            android:directBootAware="true"
-93-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
-94            android:exported="false"
-94-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
-95            android:process="@string/car_ui_installer_process_name" />
-95-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
-96        <provider
-96-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
-97            android:name="com.android.car.ui.core.SearchResultsProvider"
-97-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
-98            android:authorities="com.eldorado.unishare.SearchResultsProvider"
-98-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
-99            android:exported="true"
-99-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
-100            android:process="@string/car_ui_installer_process_name"
-100-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
-101            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
-101-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
-102
-103        <activity
-103-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\cf23d7effac8da6cdf3eb6857ab21721\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
-104            android:name="androidx.compose.ui.tooling.PreviewActivity"
-104-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\cf23d7effac8da6cdf3eb6857ab21721\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
-105            android:exported="true" />
-105-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\cf23d7effac8da6cdf3eb6857ab21721\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
-106        <activity
-106-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\13f50d7a162585dee6da2873d4bdad1c\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
-107            android:name="androidx.activity.ComponentActivity"
-107-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\13f50d7a162585dee6da2873d4bdad1c\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
-108            android:exported="true" />
-108-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\13f50d7a162585dee6da2873d4bdad1c\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
-109
-110        <provider
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-111            android:name="androidx.startup.InitializationProvider"
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-112            android:authorities="com.eldorado.unishare.androidx-startup"
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-113            android:exported="false" >
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-114            <meta-data
-114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-116                android:value="androidx.startup" />
-116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-117            <meta-data
-117-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\AK\.gradle\caches\transforms-3\896e32bff7e038d4faef9721ab88d883\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-118-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\AK\.gradle\caches\transforms-3\896e32bff7e038d4faef9721ab88d883\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-119                android:value="androidx.startup" />
-119-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\AK\.gradle\caches\transforms-3\896e32bff7e038d4faef9721ab88d883\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-120            <meta-data
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-121                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-122                android:value="androidx.startup" />
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-123        </provider>
-124
-125        <uses-library
-125-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-126            android:name="androidx.window.extensions"
-126-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-127            android:required="false" />
-127-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-128        <uses-library
-128-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-129            android:name="androidx.window.sidecar"
-129-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-130            android:required="false" />
-130-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-131
-132        <service
-132-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-133            android:name="androidx.room.MultiInstanceInvalidationService"
-133-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-134            android:directBootAware="true"
-134-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-135            android:exported="false" />
-135-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-136
-137        <receiver
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-138            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-139            android:directBootAware="false"
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-140            android:enabled="true"
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-141            android:exported="true"
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-142            android:permission="android.permission.DUMP" >
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-143            <intent-filter>
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-144                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-145            </intent-filter>
-146            <intent-filter>
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-147                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-148            </intent-filter>
-149            <intent-filter>
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-150                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-151            </intent-filter>
-152            <intent-filter>
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-153                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-154            </intent-filter>
-155        </receiver>
-156    </application>
-157
-158</manifest>
+81-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:70:9-74:48
+82            android:name="com.eldorado.unishare.activity.ChatActivity"
+82-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:71:13-50
+83            android:exported="false"
+83-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:72:13-37
+84            android:screenOrientation="portrait"
+84-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:73:13-49
+85            android:theme="@style/ChatTheme" />
+85-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:74:13-45
+86        <activity
+86-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:75:9-81:47
+87            android:name="com.eldorado.unishare.activity.MainActivity"
+87-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:76:13-50
+88            android:exported="true"
+88-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:77:13-36
+89            android:launchMode="singleInstance"
+89-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:78:13-48
+90            android:screenOrientation="portrait"
+90-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:80:13-49
+91            android:theme="@style/AppTheme"
+91-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:81:13-44
+92            android:windowSoftInputMode="adjustPan" />
+92-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:79:13-52
+93
+94        <meta-data
+94-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:83:9-85:57
+95            android:name="preloaded_fonts"
+95-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:84:13-43
+96            android:resource="@array/preloaded_fonts" />
+96-->E:\Docs\Projects\Apps\UniShare\app\src\main\AndroidManifest.xml:85:13-54
+97
+98        <provider
+98-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
+99            android:name="com.android.car.ui.core.CarUiInstaller"
+99-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
+100            android:authorities="com.eldorado.unishare.CarUiInstaller"
+100-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
+101            android:directBootAware="true"
+101-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
+102            android:exported="false"
+102-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
+103            android:process="@string/car_ui_installer_process_name" />
+103-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
+104        <provider
+104-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
+105            android:name="com.android.car.ui.core.SearchResultsProvider"
+105-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
+106            android:authorities="com.eldorado.unishare.SearchResultsProvider"
+106-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
+107            android:exported="true"
+107-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
+108            android:process="@string/car_ui_installer_process_name"
+108-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
+109            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+109-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\AK\.gradle\caches\transforms-3\1cde7c7ad58948e29de50df672c9cb97\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
+110
+111        <activity
+111-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\cf23d7effac8da6cdf3eb6857ab21721\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
+112            android:name="androidx.compose.ui.tooling.PreviewActivity"
+112-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\cf23d7effac8da6cdf3eb6857ab21721\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
+113            android:exported="true" />
+113-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\cf23d7effac8da6cdf3eb6857ab21721\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
+114        <activity
+114-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\13f50d7a162585dee6da2873d4bdad1c\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
+115            android:name="androidx.activity.ComponentActivity"
+115-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\13f50d7a162585dee6da2873d4bdad1c\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
+116            android:exported="true" />
+116-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\13f50d7a162585dee6da2873d4bdad1c\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
+117
+118        <provider
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+119            android:name="androidx.startup.InitializationProvider"
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+120            android:authorities="com.eldorado.unishare.androidx-startup"
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+121            android:exported="false" >
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+122            <meta-data
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+124                android:value="androidx.startup" />
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\AK\.gradle\caches\transforms-3\30b686f057d175d2d3d1baf5787a8a31\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\AK\.gradle\caches\transforms-3\896e32bff7e038d4faef9721ab88d883\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+126-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\AK\.gradle\caches\transforms-3\896e32bff7e038d4faef9721ab88d883\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+127                android:value="androidx.startup" />
+127-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\AK\.gradle\caches\transforms-3\896e32bff7e038d4faef9721ab88d883\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+128            <meta-data
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+130                android:value="androidx.startup" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+131        </provider>
+132
+133        <uses-library
+133-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+134            android:name="androidx.window.extensions"
+134-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+135            android:required="false" />
+135-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+136        <uses-library
+136-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+137            android:name="androidx.window.sidecar"
+137-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+138            android:required="false" />
+138-->[androidx.window:window:1.0.0] C:\Users\AK\.gradle\caches\transforms-3\ded41886acaa54c516981847d898fe6d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+139
+140        <service
+140-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+141            android:name="androidx.room.MultiInstanceInvalidationService"
+141-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+142            android:directBootAware="true"
+142-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+143            android:exported="false" />
+143-->[androidx.room:room-runtime:2.6.1] C:\Users\AK\.gradle\caches\transforms-3\e4170d3c13a7651ee20a362d5b391698\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+144
+145        <provider
+145-->[com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+146            android:name="com.squareup.picasso.PicassoProvider"
+146-->[com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+147            android:authorities="com.eldorado.unishare.com.squareup.picasso"
+147-->[com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+148            android:exported="false" />
+148-->[com.squareup.picasso:picasso:2.8] C:\Users\AK\.gradle\caches\transforms-3\09c3abf40d024f6f02bebb1642c4e7d1\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+149
+150        <receiver
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+151            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+152            android:directBootAware="false"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+153            android:enabled="true"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+154            android:exported="true"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+155            android:permission="android.permission.DUMP" >
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+157                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+158            </intent-filter>
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+160                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+163                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+166                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\AK\.gradle\caches\transforms-3\7014e397f0b223a3f0cb8d5afa029891\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+167            </intent-filter>
+168        </receiver>
+169    </application>
+170
+171</manifest>

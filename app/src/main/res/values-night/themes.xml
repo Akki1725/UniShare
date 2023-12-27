@@ -42,17 +42,12 @@
     </style>
 
     <style name="CallTheme" parent="AppTheme">
-        <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
     </style>
 
     <style name="ChatTheme" parent="AppTheme">
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
         <item name="android:navigationBarColor">?attr/colorSurface</item>
-    </style>
-    <!-- Base application theme. -->
-    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 
 </resources>

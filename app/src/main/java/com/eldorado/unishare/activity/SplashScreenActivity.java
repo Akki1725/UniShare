@@ -34,31 +34,16 @@ public class SplashScreenActivity extends AppCompatActivity {
         updateSystemUiVisibility(getWindow());
         binding = ActivitySplashScreenBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        new Initilializer().execute();
-        getWindow().setExitTransition(new MaterialSharedAxis(MaterialSharedAxis.Z, true));
+        binding.loadingAnimation.playAnimation();
 
         String prefs = PreferenceManager.getDefaultSharedPreferences(this).getString("theme_preference", "1");
         int val = Integer.parseInt(prefs);
         setNightMode(val, getWindow());
-    }
 
-    public class Initilializer extends AsyncTask<Void, Void, Void> {
-
-        @Override
-        protected Void doInBackground(Void... voids) {
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void result) {
+        new Handler().postDelayed(() -> {
             Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
-        }
+        }, 2000);
     }
 }

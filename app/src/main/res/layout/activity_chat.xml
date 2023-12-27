@@ -19,17 +19,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/userToolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="?attr/actionBarSize"
-            app:menu="@menu/chat_menu"
-            app:navigationIcon="@drawable/baseline_arrow_back_24"
-            app:navigationIconTint="?attr/colorOnSurface"
-            app:title="Device Name"
-            app:titleTextAppearance="@style/ChatTitleAppearance"
-            app:titleTextColor="?attr/colorOnSurface" />
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/userToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:menu="@menu/chat_menu"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:navigationIconTint="?attr/colorOnSurface"
+        app:title="Device Name"
+        app:titleTextAppearance="@style/ChatTitleAppearance"
+        app:titleTextColor="?attr/colorOnSurface" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -48,7 +48,7 @@
         android:maxWidth="150dp"
         android:padding="10dp"
         android:singleLine="false"
-        android:text="Latency: 200ms"
+        android:text="Latency: 110ms"
         android:textColor="?attr/colorOnErrorContainer"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -173,9 +173,7 @@
                         android:soundEffectsEnabled="true"
                         app:srcCompat="@drawable/baseline_keyboard_voice_24"
                         app:tint="?attr/colorOnSurfaceVariant" />
-
                 </LinearLayout>
-
             </androidx.cardview.widget.CardView>
 
             <ImageView

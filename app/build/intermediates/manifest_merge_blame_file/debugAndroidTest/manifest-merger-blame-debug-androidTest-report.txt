@@ -1,26 +1,26 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.michaelians.bluteeth.test" >
+3    package="com.eldorado.unishare.test" >
 4
 5    <uses-sdk
-5-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:5:5-74
+5-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:5:15-41
+6-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:5:42-71
+7-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:5:42-71
 8
 9    <instrumentation
-9-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:11:5-15:74
+9-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:11:5-15:71
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:11:22-76
+10-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:11:22-76
 11        android:functionalTest="false"
-11-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:14:22-52
+11-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:14:22-52
 12        android:handleProfiling="false"
-12-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:13:22-53
-13        android:label="Tests for com.michaelians.bluteeth"
-13-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:15:22-72
-14        android:targetPackage="com.michaelians.bluteeth" />
-14-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:12:22-70
+12-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:13:22-53
+13        android:label="Tests for com.eldorado.unishare"
+13-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:15:22-69
+14        android:targetPackage="com.eldorado.unishare" />
+14-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:12:22-67
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.5.0] C:\Users\AK\.gradle\caches\transforms-3\13f63a9bf8c6b0570c2dd28b30248c6b\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:7:5-9:19
+24-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:8:9-60
-27-->E:\Docs\Projects\Apps\BluTeeth\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest6900521439064401389.xml:8:23-57
+27-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:8:9-60
+27-->E:\Docs\Projects\Apps\UniShare\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12327900698881279175.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.5.0] C:\Users\AK\.gradle\caches\transforms-3\13f63a9bf8c6b0570c2dd28b30248c6b\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20

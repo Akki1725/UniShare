@@ -40,9 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:lottie_autoPlay="true"
-        app:lottie_asyncUpdates="enabled"
         app:lottie_loop="true"
-        app:lottie_speed="1"
         app:lottie_rawRes="@raw/loading_anim" />
 
     <TextView

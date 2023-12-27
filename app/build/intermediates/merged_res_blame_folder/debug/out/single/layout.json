@@ -16,6 +16,10 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_about.xml"
     },
     {
+        "merged": "com.eldorado.unishare.app-mergeDebugResources-77:/layout/activity_chat.xml",
+        "source": "com.eldorado.unishare.app-main-80:/layout/activity_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\row_devices_scanned.xml",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\row_devices_scanned.xml"
     },
@@ -40,10 +44,6 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\activity_voice_call.xml"
     },
     {
-        "merged": "com.eldorado.unishare.app-mergeDebugResources-77:/layout/activity_splash_screen.xml",
-        "source": "com.eldorado.unishare.app-main-80:/layout/activity_splash_screen.xml"
-    },
-    {
         "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\dialog_save_contact.xml",
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\dialog_save_contact.xml"
     },
@@ -64,7 +64,7 @@
         "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\dialer_layout.xml"
     },
     {
-        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\custom_action.xml",
-        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\custom_action.xml"
+        "merged": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-mergeDebugResources-77:\\layout\\dialer.xml",
+        "source": "C:\\Users\\AK\\.gradle\\daemon\\8.0\\com.eldorado.unishare.app-main-80:\\layout\\dialer.xml"
     }
 ]

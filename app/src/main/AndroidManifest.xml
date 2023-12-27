@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
@@ -15,6 +16,7 @@
     <uses-permission-sdk-23
         android:name="android.permission.ACCESS_FINE_LOCATION"
         tools:node="remove" />
+
     <uses-permission-sdk-23
         android:name="android.permission.ACCESS_COARSE_LOCATION"
         tools:node="remove" />
@@ -26,8 +28,7 @@
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
 
     <uses-feature
-        android:name="android.hardware.bluetooth_le"
-        android:required="true" />
+        android:name="android.hardware.bluetooth_le" />
 
     <application
         android:allowBackup="true"
@@ -41,16 +42,19 @@
         tools:targetApi="31">
         <activity
             android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AboutTheme"
             android:exported="false" />
         <activity
             android:name=".activity.SettingsActivity"
             android:exported="false"
             android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
             android:theme="@style/SettingsTheme" />
         <activity
             android:name=".activity.SplashScreenActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,14 +65,19 @@
         <activity
             android:name=".activity.VoiceCallActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/CallTheme" />
         <activity
             android:name=".activity.ChatActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/ChatTheme" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
 
         <meta-data

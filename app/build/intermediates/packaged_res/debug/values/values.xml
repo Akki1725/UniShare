@@ -228,10 +228,16 @@
 
         This is a proposal prototype of our solution to the problem statement given by <b>ISRO</b>.</string>
     <string name="app_name">UniShare</string>
+    <string name="call">Call</string>
     <string name="company_email">eldoradocorporationindia@gmail.com</string>
+    <string name="device_header">This Device\'s BlueID</string>
+    <string name="eight">8</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="hash">#</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="init_text">Initializing...</string>
+    <string name="init_text">Initializing…</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -269,9 +275,29 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="next">Next</string>
+    <string name="nine">9</string>
+    <string name="one">1</string>
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="star">*</string>
+    <string name="subtext_eight">TUV</string>
+    <string name="subtext_five">JKL</string>
+    <string name="subtext_four">GHI</string>
+    <string name="subtext_hash">₹</string>
+    <string name="subtext_nine">WXYZ</string>
+    <string name="subtext_one">λ</string>
+    <string name="subtext_seven">PQRS</string>
+    <string name="subtext_six">MNO</string>
+    <string name="subtext_star">₹</string>
+    <string name="subtext_three">DEF</string>
+    <string name="subtext_two">ABC</string>
+    <string name="subtext_zero">+</string>
+    <string name="three">3</string>
     <string name="title_activity_settings">SettingsActivity</string>
+    <string name="two">2</string>
+    <string name="zero">0</string>
     <style name="AboutTheme" parent="AppTheme">
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
         <item name="android:navigationBarColor">?attr/colorSurfaceMain</item>
@@ -315,7 +341,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
     </style>
     <style name="CallTheme" parent="AppTheme">
-        <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
     </style>
     <style name="ChatTheme" parent="AppTheme">
         <item name="android:statusBarColor">?attr/colorSurfaceMain</item>
@@ -366,6 +392,17 @@
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.NavigationView</item>
         <item name="itemIconTint">@color/navigation_item_color</item>
         <item name="itemTextColor">@color/navigation_item_color</item>
+    </style>
+    <style name="alertDialogStyle" parent="AppTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="fontFamily">@font/open_sans</item>
     </style>
     <style name="popupMenuStyle" parent="Widget.Material3.PopupMenu">
         <item name="popupMenuBackground">@drawable/popup_menu_bg</item>
